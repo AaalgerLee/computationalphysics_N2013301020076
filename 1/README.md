@@ -10,12 +10,10 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 ##background
 - There are two particles involved in the decay, ie, nuclei A and B. And B nuclei is the decay product of nuclei A.
 - The number of each nuclei is governed by the following differential equations:
-\begin{eqnarray*}
-\ \frac{dN_B}{dt}&=& \frac{N_A}{\tau_A} -\frac{N_B}{\tau_B}\\
-\frac{dN_A}{dt}&=& -\frac{N_A}{\tau_A}
-\end{eqnarray*}
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BdN_%7BB%7D%7D%7Bdt%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_%7BB%7D%7D%0A%5Cfrac%7BdN_%7BA%7D%7D%7Bdt%7D%3D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D%0A" style="border:none;" />
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BdN_%7BB%7D%7D%7Bdt%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_%7BB%7D%7D%0A%5Cfrac%7BdN_%7BA%7D%7D%7Bdt%7D%3D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D%0A" style="border:none;" />
 
- In the above equationsN<\sub>A<\sub>andN<\sub>B<\sub>represent the number of nuclei A and B respectively. tau<\sub>A<\sub>and tau<\sub>B<\sub> are the decay time constants for each type of nucleus.
+ In the above equationsN<\sub>A<\sub>andN<\sub>B<\sub>represent the number of nuclei A and B respectively. <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BdN_%7BB%7D%7D%7Bdt%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_%7BB%7D%7D%0A%5Cfrac%7BdN_%7BA%7D%7D%7Bdt%7D%3D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D%0A" style="border:none;" />and <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BdN_%7BB%7D%7D%7Bdt%7D%3D%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB%7D%7D%7B%5Ctau%20_%7BB%7D%7D%0A%5Cfrac%7BdN_%7BA%7D%7D%7Bdt%7D%3D-%5Cfrac%7BN_%7BA%7D%7D%7B%5Ctau%20_%7BA%7D%7D%0A" style="border:none;" /> are the decay time constants for each type of nucleus.
 
 ##the main body
 ### 1. methodology and purpose
@@ -47,4 +45,4 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 
 ##acknowledgement and reference
 - [Matplotlib 教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
-[markdown编辑](https://stackedit.io/editor#)
+- [formula](http://www.ruanyifeng.com/webapp/formula.html)
