@@ -12,7 +12,7 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 - The number of each nuclei is governed by the following differential equations:
 
 
- In the above equations represent the number of nuclei A and B respectively. are the decay time constants for each type of nucleus.
+ In the above equations <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BA%7D" style="border:none;" /> and <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BB%7D" style="border:none;" /> represent the number of nuclei A and B respectively. <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BA%7D" style="border:none;" /> and <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BB%7D" style="border:none;" /> are the decay time constants for each type of nucleus.
 
 ##the main body
 ### 1. methodology and purpose
