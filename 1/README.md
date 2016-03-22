@@ -26,6 +26,7 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 - Draw a figure indicating the number of each nuclei.
 
 ### 3.Coding
+The code can be found [here](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/1/homework_ch1.py)
 
 
 ### 4.Running and Analysis
