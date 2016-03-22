@@ -22,6 +22,7 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 - Mathematically, Euler method is a possible one to solve differential equation.
 - Technically in Python, the notion of array and  for-loop can be used for calculation.
 - Matplotlib is utilized to depict the data.
+
 ### 2.procedure
 
 ``` flow
@@ -57,3 +58,4 @@ cond(no)->print->fig->e
 
 ##acknowledgement and reference
 - [Matplotlib 教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
+[markdown编辑](https://stackedit.io/editor#)
