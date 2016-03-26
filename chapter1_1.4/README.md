@@ -28,7 +28,7 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 - Draw a figure indicating the number of each nuclei.
 - Compare the figure with the mathematical result.
 
-### 3.3 Coding and Calculating
+### 3.3. Coding and Calculating
 - Mathematically, the equations can be solved as
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BA%7D%3DA_%7B0%7De%5E%7B-t%2F%5Ctau%20_%7BA%7D%7D" style="border:none;" />
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BB%7D%3D%5Cfrac%7B%5Ctau%20_%7BB%7D%7D%7B%5Ctau%20_%7BA%7D-%5Ctau%20_%7BB%7D%7DA_%7B0%7De%5E%7B-t%2F%5Ctau%20_%7BA%7D%7D%2B(B_%7B0%7D-%5Cfrac%7B%5Ctau%20_%7BB%7D%7D%7B%5Ctau%20_%7BA%7D-%5Ctau%20_%7BB%7D%7DA_%7B0%7D)%5Ccdot%20e%5E%7B-t%2F%5Ctau%20_%7BB%7D%7D" style="border:none;" />
