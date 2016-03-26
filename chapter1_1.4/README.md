@@ -34,6 +34,7 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BB%7D%3D%5Cfrac%7B%5Ctau%20_%7BB%7D%7D%7B%5Ctau%20_%7BA%7D-%5Ctau%20_%7BB%7D%7DA_%7B0%7De%5E%7B-t%2F%5Ctau%20_%7BA%7D%7D%2B(B_%7B0%7D-%5Cfrac%7B%5Ctau%20_%7BB%7D%7D%7B%5Ctau%20_%7BA%7D-%5Ctau%20_%7BB%7D%7DA_%7B0%7D)%5Ccdot%20e%5E%7B-t%2F%5Ctau%20_%7BB%7D%7D" style="border:none;" />
 - For simplicity, we set<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BA%7D%3D1%20second" style="border:none;" />. And the initial number of A is 100.
 The code can be found [here](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/1/homework_ch1.py)
+
 ### 3.4. Running and Analysis
 We can set<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BB%7D%3D0.5%2Ctimeinterval%3D0.01s%2Cfinaltime%3D10s" style="border:none;" /> 
 - When the initial number satisfy<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BN_%7BA0%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB0%7D%7D%7B%5Ctau%20_%7BB%7D%7D%3E0" style="border:none;" />, suppose <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_B%3D30" style="border:none;" />
