@@ -1,4 +1,17 @@
 # computationalphysics_N2013301020076
-[第一次作业](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/homework1.md)从StackEdit上publish过来的
+## Personal Information
+Junyi Shangguan
+2013301020076
+Hongyi Class
 
-[homework of chapter 1](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/1)
+## Homework and Exercises
+### 1. First homework
+- my first assignment [written by markdown](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/homework1.md)
+
+### 3. Third homework
+- practice python-undo
+- type name L1-
+- type name L2-
+- type something fun L3-
+### 4. forth homework
+-the first homework of chapter 1:[problem1.4](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/chapter1_1.4)-unfinished
