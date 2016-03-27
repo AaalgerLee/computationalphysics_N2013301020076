@@ -41,6 +41,7 @@ The code can be found [here](https://github.com/JunyiShangguan/computationalphys
 - When the initial numbers satisfy<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BN_%7BA0%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB0%7D%7D%7B%5Ctau%20_%7BB%7D%7D%3E0" style="border:none;" />, suppose <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_B%3D30" style="border:none;" />
 
 The result is
+![figure_1](/home/shangguan/computationalphysics_N2013301020076/chapter1_1.4)
 
 The number of B witnesses an increase and a decrease, while the number of A keeps falling.
 Compared with the figure of mathematical solution, the fit is quite well. 
