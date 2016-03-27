@@ -50,7 +50,7 @@ Compared with the figure of mathematical solution, the fit is quite well.
 - When the initial numbers satisfy <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BN_%7BA0%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB0%7D%7D%7B%5Ctau%20_%7BB%7D%7D%3C0" style="border:none;" />, suppose <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BB0%7D%3D70" style="border:none;" />
 
 The result is 
-![]( computationalphysics_N2013301020076/chapter1_1.4/figure_2.png )
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_2.png)
 
 The number of both nuclei decrease.
 Compared with the figure of mathematical solution, the fit is quite well. 
@@ -58,10 +58,13 @@ Compared with the figure of mathematical solution, the fit is quite well.
 2. If we change time_interval,while keep <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BB%7D%3D0.5%2Cfinaltime%3D10%2Cinitial%20number%20of%20B%3D30" style="border:none;" />
 
 - if time_interval=0.1
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_3.png)
 
 - if time_interval=0.5
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_4.png)
 
-From the figures above, we can deduce that the smaller time_interval is, the better our figure is fitted. 
+In the figures above, the dotted curved are plotted from the mathematical solution of the dacey functions.
+Thus,we can deduce that the smaller time_interval is, the better our figure is fitted. 
 
 ## 4. Conclusion
 The ratio of the decay constants influences the curve.
