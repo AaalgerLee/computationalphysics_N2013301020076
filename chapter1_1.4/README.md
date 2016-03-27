@@ -68,9 +68,12 @@ Thus,we can deduce that the smaller time_interval is, the better our figure is f
 
 ## 4. Conclusion
 The ratio of the decay constants influences the curve.
+
 The value of time_interval influences the accuracy of the calcuation.
+
 Anyway, the two curves are approaching some limit.
 
 ## 5. Acknowledgement and Reference
 - [Matplotlib 教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
+
 - [typing formula](http://www.ruanyifeng.com/webapp/formula.html)
