@@ -18,4 +18,7 @@ Hongyi Class
 - type something fun L3-
 
 ### 4. forth homework
--the first homework of chapter 1:[problem1.4](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/chapter1_1.4)-unfinished
+-the first homework of chapter 1:[problem1.4](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/chapter1_1.4)-almost finished
+
+### 5. 
+-the 2nd homework of chapter 1:[problem1.6]
