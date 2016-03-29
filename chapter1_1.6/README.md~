@@ -22,6 +22,7 @@ The problem requires to be solved in the following way:
 - change initial value of N and a,b to find interesting things. 
 
 For simplicity, I set the initial population N=1unit, and the following calculation of population is based on the unit. Meanwhile, I set the unit of time as year.
+
 The plot can be made as a 3D one.
 
 ## 3. The main body
@@ -35,6 +36,16 @@ The code can be found [here]()
 
 ### 3.3. Running and Analysis
 
+- 2D figure
+1. For a=1,b=0 and time_interval=0.01,final_time=10
+
+2. For a=1.5,b=0.1 and time_interval=0.01,final_time=10
+
+3. For a=1.5,b=10 and time_interval=0.01,final_time=10
+
+4. For a=1.5,b=1.5 and time_interval=0.01,final_time=10
+
+- 3D
 
 ## 4. Conclusion
 

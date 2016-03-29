@@ -25,10 +25,11 @@ if (b*n-a)!=0:
     math_pop=a*c*exp(a*math_t)/(-1+b*c*exp(a*math_t))
 else:
     math_pop=n+0*math_t
-plot2,=plot(math_t,math_pop,color='red',linestyle='-.',linewidth=2.0,label='math result')
 
 #plot
-plot1, =plot(time,population,color='blue',linestyle='-',linewidth=3.0,label='population')
+plot1, =plot(time,population,color='y',linestyle='-',linewidth=3.0,label='population')
+plot2,=plot(math_t,math_pop,color='r',linestyle='-.',linewidth=2.0,label='math result')
+
 title('Population Modeling')
 xlabel('time/year')
 ylabel('number of individuals/unit')
