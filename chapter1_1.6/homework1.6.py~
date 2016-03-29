@@ -1,0 +1,32 @@
+#assign values to the parameters
+a=input('the birth term a=')
+b=input('the death term b=')
+N=input('initial population=')
+time_interval=input('time interval=')
+final_time=input('final time=')
+#calculation
+import math
+time=[]
+c=N/(b*N-a)
+population=[]
+t=0
+time.append(t)
+population.append(N)
+
+for i in range(int(final_time/time_interval)):
+    t=t+time_interval
+    N=N+(a*N-b*N*N)*time_interval
+#    if N<0:
+#        N=0
+    time.append(t)
+    population.append(N)
+#calculate the result mathematically and accurately
+from pylab import*
+math_t=np.linspace(0,final_time,int(final_time/time_interval)+1,endpoint=True)
+math_pop=a*c*exp(a*math_t)/(-1+b*c*exp(a*math_t))
+
+print population
+#plot1, =plot(time,population,color='blue',linestyle='-',linewidth=3.0,label='population')
+#plot2,=plot(math_t,math_pop,color='red',linestyle='-.',linewidth=1.5,label='math result')
+#legend()
+#show()
