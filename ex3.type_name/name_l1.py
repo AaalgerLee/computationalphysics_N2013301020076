@@ -1,0 +1,6 @@
+print 'Tihis is level1-print my name SHANG directly line by line'
+print '#####  #   #   #   ##  #  #####'
+print '#      #   #  # #  ##  #  #    '
+print '#####  ##### ##### # # #  # ###'
+print '    #  #   # #   # #  ##  #   #'
+print '#####  #   # #   # #   #  #####'
