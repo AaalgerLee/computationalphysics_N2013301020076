@@ -32,23 +32,24 @@ The plot can be made as a 3D one.
 - Plot the 3D figure with Vpython.
 
 ### 3.2. Coding and Calculating
-The code can be found [here]
+The code can be found [here](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex5_ch1.6/homework1.6.py)
 
 ### 3.3. Running and Analysis
 
 - 2D figure
 1. For a=1,b=0 and time_interval=0.01,final_time=10
-
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex5_ch1.6/figure_1.png)
 2. For a=1.5,b=0.1 and time_interval=0.01,final_time=10
-
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex5_ch1.6/figure_2.png)
 3. For a=1.5,b=10 and time_interval=0.01,final_time=10
-
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex5_ch1.6/figure_3.png)
 4. For a=1.5,b=1.5 and time_interval=0.01,final_time=10
-
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex5_ch1.6/figure_4png.png)
 - 3D
 
 ## 4. Conclusion
-
+- The change of population can be separated into several stages. The first stage is increase or decrease and the tendency is determined by the relative value of the constant a and b. This change is followed by the stage of stability unless b is zero.
+- From the expression and the pictures above, we can see that if as time approaches infitite, the population approaches a limit, that is  <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Clim_%7Bt%5Cto%5Cinfty%7DN%3D%5Cfrac%7Ba%7D%7Bb%7D" style="border:none;" />. At this point, the mathematical expression and my calculation are compatible.
 
 ## 5. Acknowledgement and Reference
 - [Matplotlib 教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
