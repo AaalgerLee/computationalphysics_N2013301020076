@@ -21,13 +21,16 @@ The problem requires to be solved in the following way:
 For simplicity, I set the initial population N=1unit, and the following calculation of population is based on the unit. Meanwhile, I set the unit of time as year.  
 The plot can be made as a 3D one.
 
-## 3. The main body
+## 3. The main body 
+
 ### 3.1. Methodology and Purpose
 - Calculate with list and  for-loop in Python;
 - Plot the 2D figure with matplotlib;
 - Plot the 3D figure with Vpython.  
+
 ### 3.2. Coding and Calculating
 The code can be found [here](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex5_ch1.6/homework1.6.py)  
+
 ### 3.3. Running and Analysis  
 - 2D figure
 1. For a=1,b=0 and time_interval=0.01,final_time=10
@@ -43,6 +46,7 @@ The code can be found [here](https://github.com/JunyiShangguan/computationalphys
 ## 4. Conclusion
 - The change of population can be separated into several stages. The first stage is increase or decrease and the tendency is determined by the relative value of the constant a and b. This change is followed by the stage of stability unless b is zero.
 - From the expression and the pictures above, we can see that if as time approaches infitite, the population approaches a limit, that is  <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Clim_%7Bt%5Cto%5Cinfty%7DN%3D%5Cfrac%7Ba%7D%7Bb%7D" style="border:none;" />. At this point, the mathematical expression and my calculation are compatible.  
+
 ## 5. Acknowledgement and Reference
 - [Matplotlib 教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
 
