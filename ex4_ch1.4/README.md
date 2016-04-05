@@ -33,7 +33,7 @@ For the homework of the 1st chapter of computational  physics, I choose *problem
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BA%7D%3DA_%7B0%7De%5E%7B-t%2F%5Ctau%20_%7BA%7D%7D" style="border:none;" />
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BB%7D%3D%5Cfrac%7B%5Ctau%20_%7BB%7D%7D%7B%5Ctau%20_%7BA%7D-%5Ctau%20_%7BB%7D%7DA_%7B0%7De%5E%7B-t%2F%5Ctau%20_%7BA%7D%7D%2B(B_%7B0%7D-%5Cfrac%7B%5Ctau%20_%7BB%7D%7D%7B%5Ctau%20_%7BA%7D-%5Ctau%20_%7BB%7D%7DA_%7B0%7D)%5Ccdot%20e%5E%7B-t%2F%5Ctau%20_%7BB%7D%7D" style="border:none;" />
 - For simplicity, we set<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BA%7D%3D1%20second" style="border:none;" />. And the initial number of A is 100.
-The code can be found [here](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/homework_ch1.py)
+The code can be found [here](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex4_ch1.4/ex4_ch1.4.py)
 
 ### 3.4. Running and Analysis
 1. We can set<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BB%7D%3D0.5%2Ctimeinterval%3D0.01s%2Cfinaltime%3D10s" style="border:none;" /> 
@@ -41,7 +41,7 @@ The code can be found [here](https://github.com/JunyiShangguan/computationalphys
 - When the initial numbers satisfy<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BN_%7BA0%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB0%7D%7D%7B%5Ctau%20_%7BB%7D%7D%3E0" style="border:none;" />, suppose <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_B%3D30" style="border:none;" />
 
 The result is
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_1.png)
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex4_ch1.4/figure_1.png)
 
 The number of B witnesses an increase and a decrease, while the number of A keeps falling.
 Compared with the figure of mathematical solution, the fit is quite well. 
@@ -50,7 +50,7 @@ Compared with the figure of mathematical solution, the fit is quite well.
 - When the initial numbers satisfy <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7BN_%7BA0%7D%7D%7B%5Ctau%20_%7BA%7D%7D-%5Cfrac%7BN_%7BB0%7D%7D%7B%5Ctau%20_%7BB%7D%7D%3C0" style="border:none;" />, suppose <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7BB0%7D%3D70" style="border:none;" />
 
 The result is 
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_2.png)
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex4_ch1.4/figure_2.png)
 
 The number of both nuclei decrease.
 Compared with the figure of mathematical solution, the fit is quite well. 
@@ -58,10 +58,10 @@ Compared with the figure of mathematical solution, the fit is quite well.
 2. If we change time_interval,while keep <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctau%20_%7BB%7D%3D0.5%2Cfinaltime%3D10%2Cinitial%20number%20of%20B%3D30" style="border:none;" />
 
 - if time_interval=0.1
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_3.png)
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex4_ch1.4/figure_3.png)
 
 - if time_interval=0.5
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/chapter1_1.4/figure_4.png)
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex4_ch1.4/figure_4.png)
 
 In the figures above, the dotted curved are plotted from the mathematical solution of the dacey functions.
 Thus,we can deduce that the smaller time_interval is, the better our figure is fitted. 
