@@ -3,13 +3,13 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 
- # Abstract
+# Abstract
  This is my first trial of *Markdown*. I will try different grammars.
 
- # Background
+# Background
  This is the **first homework** of the computational physics that has been assigned on 24th, February, 2016. The foundation I have is nowhere near solid.
 
- # The Main Body
+# The Main Body
  *  *这是斜体*
  *   **这是粗体**
  *   ***粗斜体***
