@@ -1,4 +1,7 @@
 EXERCISE 3--TYPE NAME
+
+上官俊怡2013301020076
+
 # Abstract
 
 This exercise is to type my name in three different levels.
