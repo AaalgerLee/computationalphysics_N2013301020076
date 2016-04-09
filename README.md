@@ -22,6 +22,7 @@ report of [ex6.trajectory of the cannon]
 - code of [problem 2.9]
 - code of [problem2.10]
 - code of [hyperfine pinpoint striking system]  
+
 ### 7. seventh exercise
 - L1: report of [ex7.problem2.19]
 - visualize the movement 
