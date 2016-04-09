@@ -41,10 +41,16 @@ For simplicity, I just print the capital letters. If there are lower-case letter
 ## Running and analysis
 
 ### Level 1
+Type SHANG for simplicity
 
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex3.type_name/fig_l1.PNG)
 
+### Level 2
+The input string is "dfgHJK"
 
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex3.type_name/fig_l2.PNG)
+
+### Level 3
 
 # Conclusion
 
