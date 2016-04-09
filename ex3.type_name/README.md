@@ -34,11 +34,14 @@ For simplicity, I just print the capital letters. If there are lower-case letter
 
 ## Code
 
-- Code for [level1]
-- Code for [level2]
+- Code for [level1](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex3.type_name/name_l1.py)
+- Code for [level2](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex3.type_name/name_l2.py)
 - Code for level3-unfinished
 
 ## Running and analysis
+
+### Level 1
+
 
 
 
