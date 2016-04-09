@@ -42,6 +42,7 @@ For simplicity, I just print the capital letters. If there are lower-case letter
 
 ### Level 1
 
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex3.type_name/fig_l1.PNG)
 
 
 
