@@ -19,12 +19,9 @@ def capital_a_letter(x):
 def capital(string):
     return ''.join(map(capital_a_letter,string)) 
 
-
-
 stri=raw_input('input=')         #input a string rather than number
 l0,l1,l2,l3,l4='','','','',''   #initial
 str=capital(stri)
-print str
 for element in str:
     l0=l0+d0[element]
     l1=l1+d1[element]
