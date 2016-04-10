@@ -1,4 +1,6 @@
 # 2nd Homework for Chapter 1
+
+上官俊怡2013301020076
 ## 1. Abstract
 
 This is the 5th homework of computional physics and the 2nd homework of chapter 1. I choose *problem 1.6* as my project.
