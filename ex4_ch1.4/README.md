@@ -4,6 +4,8 @@
 > Written with [StackEdit](https://stackedit.io/).
 
 #Homework for Chapter 1
+
+上官俊怡2013301020076
 ## 1. Abstract
 For the homework of the 1st chapter of computational  physics, I choose *problem 1.4* as my project.
 
