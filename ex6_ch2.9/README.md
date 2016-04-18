@@ -17,6 +17,7 @@ No air drag
  Air drag is related to its density-adiabatic  
  For the firing system:  
  ???      
+
 # The Main Body    
 ## Method  
 - For trajectory project:
