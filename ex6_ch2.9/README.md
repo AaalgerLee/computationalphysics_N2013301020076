@@ -1,5 +1,5 @@
 Exercise 6--trajectory of the cannon shell  
-�Ϲٿ���2013301020076
+ÉÏ¹Ù¿¡âù2013301020076
 # Abstrack  
 This is the 6th exercise of computional physics. The project is about the design of cannon trajectory while taking the air resistence into consideration. In addition, the firing system is also designed.  
 # Background
@@ -22,7 +22,7 @@ This is the 6th exercise of computional physics. The project is about the design
 - For trajectory project:
 : Euler method can be applied to the situations mentioned above to depict to trajectory.  
 - For the firing system:
-: waiting to be considered ???ɨ����ʲô  
+: waiting to be considered ???É¨ÃèÊÇÊ²Ã´  
 ## Code  
 Here is the code for [trajectory project]
 Here is the code for [firing system]  
