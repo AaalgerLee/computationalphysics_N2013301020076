@@ -3,7 +3,7 @@ Exercise 6--trajectory of the cannon shell
 # 1.Abstrack  
 This is the 6th exercise of computional physics. The project is about the design of cannon trajectory while taking the air resistence into consideration. In addition, the firing system is also designed.  
 # 2.Background
-- Newton's second law can be applied as
+- Newton's second law can be applied as  
 > <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%5E%7B2%7Dx%7D%7Bdt%5E%7B2%7D%7D%3D%5Cfrac%7BF_%7Bx%7D%7D%7Bm%7D%3Da_%7Bx%7D" style="border:none;" />  
 > <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%5E%7B2%7Dy%7D%7Bdt%5E%7B2%7D%7D%3D%5Cfrac%7BF_%7By%7D%7D%7Bm%7D%3Da_%7By%7D" style="border:none;" />  
 - For the trajectory project, the following conditions should be  applied:  
