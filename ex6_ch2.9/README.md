@@ -29,16 +29,37 @@ This is the 6th exercise of computional physics. The project is about the design
 ## 3.1Method  
 - For trajectory project:  
 Euler method can be applied to the situations mentioned above to depict to trajectory.  
+1. No air drag: the second order equations describing the movement can be re written as first order ones. To use the Euler methon, we can write each derivative in finite form, which leads to the following equations:  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=x_%7Bi%2B1%7D%3Dx_%7Bi%7D%2Bv_%7Bx%2Ci%7D%5CDelta%20t" style="border:none;" />  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=v_%7Bx%2Ci%2B1%7D%3Dv_%7Bx%2Ci%7D" style="border:none;" />  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=y_%7Bi%2B1%7D%3Dy_%7Bi%7D%2Bv_%7By%2Ci%7D%5CDelta%20t" style="border:none;" />  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=v_%7By%2Ci%2B1%7D%3Dv_%7By%2Ci%7D-g%5CDelta%20t" style="border:none;" />  
+2. Air drag is only related to speed:for the same reason, we can deduce that  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=x_%7Bi%2B1%7D%3Dx_%7Bi%7D%2Bv_%7Bx%2Ci%7D%5CDelta%20t" style="border:none;" />  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=v_%7Bx%2Ci%2B1%7D%3Dv_%7Bx%2Ci%7D-Bvv_%7Bx%2Ci%7D%5CDelta%20t" style="border:none;" />  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=y_%7Bi%2B1%7D%3Dy_%7Bi%7D%2Bv_%7By%2Ci%7D%5CDelta%20t" style="border:none;" />  
+> <img src="http://chart.googleapis.com/chart?cht=tx&chl=v_%7By%2Ci%2B1%7D%3Dv_%7By%2Ci%7D-g%5CDelta%20t-Bvv_%7By%2Ci%7D%5CDelta%20t" style="border:none;" />  
+3. Isothermal case:
+4. Adiabatic case:
 - For the firing system:  
 ???  
 
 ## 3.2Code  
-Here is the code for [trajectory project]  
+Here is the code for [no-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory1.py)  
 Here is the code for [firing system]   
 ## 3.3Running and Analysis  
 ### The trajectory project  
 - For the case with no air resistence
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/no_drag.png)
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/no_drag.png)  
+|angle         |distance/km      |
+---------------|-----------------|
+|30            |43.305           |
+|35            |46.988           |
+|40            |49.245           |
+|45            |50.005           |
+|50            |49.243           |
+|55            |46.988           |
+|60            |43.304           |
 - For the case with air resistence only related to speed
 
 - For the isothermal case
