@@ -49,6 +49,9 @@ Euler method can be applied to the situations mentioned above to depict to traje
 
 ## 3.2Code  
 Here is the code for [no-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory1.py)  
+Here is the code for [with-air-drag case]()
+Here is the code for [isothermal case]()
+Here is the code for [adiabatic case]()
 Here is the code for [firing system]   
 ## 3.3Running and Analysis  
 ### The trajectory project  
