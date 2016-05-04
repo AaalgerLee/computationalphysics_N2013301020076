@@ -3,6 +3,7 @@ Exercise 6--trajectory of the cannon shell
 # 1.Abstrack  
 This is the 6th exercise of computional physics. The project is about the design of cannon trajectory while taking the air resistence into consideration. In addition, the firing system is also designed.  
 # 2.Background
+The Euler method we used priviously in the bicycle problem can be generalized to two-dimension motion. In this project, Euler method is applied to the cannon shell trajectory.
 - Newton's second law can be applied as   
 > <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%5E%7B2%7Dx%7D%7Bdt_%7B2%7D%7D%3Da_%7Bx%7D%3D%5Cfrac%7BF_%7Bx%7D%7D%7Bm%7D%3D%5Cfrac%7BF_%7Bdrag%2Cx%7D%7D%7Bm%7D" style="border:none;" />  
 > <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%5E%7B2%7Dy%7D%7Bdt_%7B2%7D%7D%3Da_%7By%7D%3D%5Cfrac%7BF_%7By%7D%7D%7Bm%7D%3D-g%2B%5Cfrac%7BF_%7Bdrag%2Cy%7D%7D%7Bm%7D" style="border:none;" />  
@@ -63,8 +64,7 @@ Euler method can be applied to the situations mentioned above to depict to traje
 ## 3.2Code  
 Here is the code for [no-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory1.py)  
 Here is the code for [with-air-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory2.py)  
-Here is the code for [with density correction]()  
-Here is the code for [firing system]   
+Here is the code for [with density correction and firing system]()  
 ## 3.3Running and Analysis  
 ### The trajectory project  
 - For the case with no air resistence, we set the initial velocity as 700m/s.
@@ -85,13 +85,15 @@ We can set the constant<img src="http://chart.googleapis.com/chart?cht=tx&chl=y_
 The parameter <img src="http://chart.googleapis.com/chart?cht=tx&chl=a%5Capprox%206.5%5Ctimes%2010%5E%7B-3%7DK%2Fm" style="border:none;" /> fits the mearesured data fairly well. And the exponent <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha%20%5Capprox%202.5" style="border:none;" />for air. Besides, for simplicity, we choose the temperature <img src="http://chart.googleapis.com/chart?cht=tx&chl=T_%7B0%7D%3D300K" style="border:none;" />
 
 For simplicity, we do the density-correction canses together. Here is the result:
-![]()
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/density_correct.png)
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/table3-DensityCorrection.PNG)
 
-Compared with the constant density canse, it is obvious that the density correction can incerase the distance the cannon shell tralvells.
+Compared with the constant density canse, it is obvious that the density correction can incerase the distance the cannon shell tralvells. In addition, isothermal approximation may introduse slightly greater distance than adiabatic approximation.
 
 ### The firing system  
-# 4.Conclusion  
-# 5.Acknowledegment and Reference  
+ 
+# 4.Acknowledegment and Reference  
 - [Python使用matplotlib绘制动画的方法](http://www.jb51.net/article/66441.htm)
 - [typing formula](http://www.ruanyifeng.com/webapp/formula.html)
-- []
+- [一个动态多图画法参考](http://www.tuicool.com/articles/iMN7veq)
+- [%运算符](http://developer.51cto.com/art/201003/189039.htm)

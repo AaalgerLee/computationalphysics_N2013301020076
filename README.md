@@ -18,7 +18,7 @@ Hongyi Class
 - the 2nd homework of chapter 1:[ex5 of problem1.6](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/ex5_ch1.6)-unfinished
 
 ### 6.sixth exercise    
-report of [ex6.trajectory of the cannon]
+report of [ex6.trajectory of the cannon](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/ex6_ch2.9)
 - code of [problem 2.9]
 - code of [problem2.10]
 - code of [hyperfine pinpoint striking system]  
