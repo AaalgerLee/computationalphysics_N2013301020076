@@ -59,12 +59,12 @@ Euler method can be applied to the situations mentioned above to depict to traje
 > <img src="http://chart.googleapis.com/chart?cht=tx&chl=v_%7By%2Ci%2B1%7D%3Dv_%7By%2Ci%7D-g%5CDelta%20t-B(1-%5Cfrac%7Bay_%7Bi%7D%7D%7BT_%7B0%7D%7D)%5E%7B%5Calpha%20%7Dvv_%7By%2Ci%7D%5CDelta%20t" style="border:none;" />  
 
 - For the firing system:  
-???  
+Since the isothermal approximation is more likely to the real case, this approximation is applied in the firing system.  
 
 ## 3.2Code  
 Here is the code for [no-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory1.py)  
 Here is the code for [with-air-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory2.py)  
-Here is the code for [with density correction and firing system]()  
+Here is the code for [with density correction and firing system](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory3_density.py)  
 ## 3.3Running and Analysis  
 ### The trajectory project  
 - For the case with no air resistence, we set the initial velocity as 700m/s.
@@ -97,3 +97,4 @@ Compared with the constant density canse, it is obvious that the density correct
 - [typing formula](http://www.ruanyifeng.com/webapp/formula.html)
 - [一个动态多图画法参考](http://www.tuicool.com/articles/iMN7veq)
 - [%运算符](http://developer.51cto.com/art/201003/189039.htm)
+- 论怎样把画好的动图保存下来？？
