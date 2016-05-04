@@ -63,8 +63,7 @@ Euler method can be applied to the situations mentioned above to depict to traje
 ## 3.2Code  
 Here is the code for [no-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory1.py)  
 Here is the code for [with-air-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory2.py)  
-Here is the code for [isothermal case]()  
-Here is the code for [adiabatic case]()  
+Here is the code for [with density correction]()  
 Here is the code for [firing system]   
 ## 3.3Running and Analysis  
 ### The trajectory project  
@@ -82,9 +81,14 @@ From the air-density-independent cases above, we can see that air resistance pla
 - For the isothermal case  
 We can set the constant<img src="http://chart.googleapis.com/chart?cht=tx&chl=y_%7B0%7D%3Dk_%7BB%7DT%2Fmg%5Capprox%201.0%5Ctimes%2010%5E%7B4%7Dm" style="border:none;" />  
 
-
 - For the adiabatic case   
 The parameter <img src="http://chart.googleapis.com/chart?cht=tx&chl=a%5Capprox%206.5%5Ctimes%2010%5E%7B-3%7DK%2Fm" style="border:none;" /> fits the mearesured data fairly well. And the exponent <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Calpha%20%5Capprox%202.5" style="border:none;" />for air. Besides, for simplicity, we choose the temperature <img src="http://chart.googleapis.com/chart?cht=tx&chl=T_%7B0%7D%3D300K" style="border:none;" />
+
+For simplicity, we do the density-correction canses together. Here is the result:
+![]()
+
+Compared with the constant density canse, it is obvious that the density correction can incerase the distance the cannon shell tralvells.
+
 ### The firing system  
 # 4.Conclusion  
 # 5.Acknowledegment and Reference  
