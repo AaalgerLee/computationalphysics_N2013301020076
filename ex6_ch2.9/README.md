@@ -64,7 +64,8 @@ Since the isothermal approximation is more likely to the real case, this approxi
 ## 3.2Code  
 Here is the code for [no-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory1.py)  
 Here is the code for [with-air-drag case](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory2.py)  
-Here is the code for [with density correction and firing system](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory3_density.py)  
+Here is the code for [with density correction](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex6_ch2.9/trajectory3_density.py)  
+Here is the code for [firing system]-scan different firing angles to figure out the longest distance while firing velocity is fixed. 
 ## 3.3Running and Analysis  
 ### The trajectory project  
 - For the case with no air resistence, we set the initial velocity as 700m/s.
