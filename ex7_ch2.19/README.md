@@ -11,17 +11,17 @@ To deal with the trajectory of a batted ball, two effects must be dealt with. On
 The motion in three dimensions should be considered. Let x be the axis running from home plate to the pitcher, z be the horizontal direction perpendicular to x, and y be the height above the ground. We assume that the axis of rotation is parallel to y, that is, perpendicular to the ground. The equations of motion include the effects of atmospheric drag and the effects of Magnus force.  
 The axis can be demonstrated as below:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex7_ch2.19/axis.png)  
-## 3.1. the atmospheric drag  
+## 3.1. the Atmospheric Drag  
 In general, air resistance can be written in the fairly innocent form  
 ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%5Capprox-B_%7B1%7Dv-B_%7B2%7Dv%5E%7B2%7D)  
 at resonable velocity, the latter term in the equation dominates for most objects.  
 To make an approximation, we have  
 ![](http://latex.codecogs.com/gif.latex?F_%7Bdrag%7D%5Capprox-B_%7B2%7Dv%5E%7B2%7D)  
-The atmospheric drag is concerned with the largest component of the velocity![](http://latex.codecogs.com/gif.latex?v_x), since the forces introduced by ![](http://latex.codecogs.com/gif.latex?v_y%2Cv_z)are much smaller：  
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%20B_%7B2%7D%20%7D%7B%20m%20%7D%20%3D0.0039&plus;%5Cfrac%7B0.0058%7D%7B1&plus;e%5E%7B%28v-v_%7Bd%7D%29/%5CDelta%7D%7D) with  
-![](http://latex.codecogs.com/gif.latex?%5CDelta%3D5m/s%2Cv_%7Bd%7D%3D35m/s)  
+The atmospheric drag is concerned with the components of the velocity![](http://latex.codecogs.com/gif.latex?v_x)and![](http://latex.codecogs.com/gif.latex?v_y%2Cv_z)are much smaller：  
+![](http://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%20B_%7B2%7D%20%7D%7B%20m%20%7D%20%3D0.0039&plus;%5Cfrac%7B0.0058%7D%7B1&plus;e%5E%7B%28v-v_%7Bd%7D%29/%5CDelta%7D%7D)  
+with![](http://latex.codecogs.com/gif.latex?%5CDelta%3D5m/s%2Cv_%7Bd%7D%3D35m/s)and v is the speed.  
 
-## 3.2. the Magnus force:  
+## 3.2. the Magnus Force [^footer1]:  
 The upward component of the force on the lower half of the ball is proportional to the square of the velocity of the surface of the ball relative to the air. Besides, the downward component of the drag force on the upper half of the ball is proportional to the square of the relative velocity of that surface. So the Magnus force is equal to the difference of these two terms:  
 ![](http://latex.codecogs.com/gif.latex?F_M%5Cpropto%28v&plus;r%5Comega%29%5E2-%28v-r%5Comega%29%5E2%5Csim%20vr%5Comega)  
 Thus the spin-dependent force can be expressed as:  
@@ -31,7 +31,8 @@ For the same toke,considering the angular velocoty as a vector, and we have
 over the velocity of interest to a pitcher,50-110mph, it is estimated from the data given that  
 ![](http://latex.codecogs.com/gif.latex?S_0/m%5Capprox4.1%5Ctimes10%5E%7B-4%7D), where ![](http://latex.codecogs.com/gif.latex?m%5Capprox149g)  
 
-## 3.3. The equations of motion are then  
+## 3.3. The equations of Motion
+From the analysis above, it can be deduced that  
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2x%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-Bvv_x&plus;%5Cfrac%7BS_0%7D%7Bm%7D%28%5Comega_yv_z-%5Comega_zv_y%29%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2y%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-Bvv_y&plus;%5Cfrac%7BS_0%7D%7Bm%7D%28%5Comega_zv_x-%5Comega_xv_z%29-g%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2z%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-Bvv_z&plus;%5Cfrac%7BS_0%7D%7Bm%7D%28%5Comega_xv_y-%5Comega_yv_x%29)  
 
 # 4.Code  
@@ -41,5 +42,5 @@ The code for [batted ball motion effected by spin]
 
 # 6.Acknowledgemen and Reference  
 - type the formulas with [codecogs](http://latex.codecogs.com/) in the procedure: right-click the formula, select the image attributes, copy the url in "Source" column, publish as a figure.  
-- The calculation of the Magnus force is based on [The project of Feng Chen](https://www.zybuluo.com/355073677/note/339666)  
-- 3d figure is based on [mplot3d tutorial](http://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#scatter-plots)
+- 3d figure is based on [mplot3d tutorial](http://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#scatter-plots)  
+[^footer1] : The calculation of the Magnus force is based on [The project of Feng Chen](https://www.zybuluo.com/355073677/note/339666)
