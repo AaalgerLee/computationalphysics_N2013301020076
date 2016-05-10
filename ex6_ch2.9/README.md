@@ -1,6 +1,6 @@
 Exercise 6--trajectory of the cannon shell  
 上官俊怡2013301020076
-# 1.Abstrack  
+# 1.Abstract  
 This is the 6th exercise of computional physics. The project is about the design of cannon trajectory while taking the air resistence into consideration. In addition, the firing system is also designed.  
 # 2.Background
 The Euler method we used priviously in the bicycle problem can be generalized to two-dimension motion. In this project, Euler method is applied to the cannon shell trajectory.

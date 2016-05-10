@@ -63,6 +63,7 @@ def animate(j):
     return line,note,note1
 
 anim1=animation.FuncAnimation(fig, animate, init_func=init,  frames=90, interval=5)#, blit=True)  
+anim1.save('trajectoryanimation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 plt.show()  
 
 
