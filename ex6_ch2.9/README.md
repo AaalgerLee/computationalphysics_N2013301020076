@@ -99,3 +99,5 @@ Compared with the constant density canse, it is obvious that the density correct
 - [一个动态多图画法参考](http://www.tuicool.com/articles/iMN7veq)
 - [%运算符](http://developer.51cto.com/art/201003/189039.htm)
 - 论怎样把画好的动图保存下来？？
+- [matplotlib animation tutorial](http://jakevdp.github.io/blog/2012/08/18/matplotlib-animation-tutorial/)
+- [download](http://deidara.blog.51cto.com/400447/88965/)
