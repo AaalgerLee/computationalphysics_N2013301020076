@@ -1,7 +1,8 @@
 Exercise 7 - trajectory of batted ball under the effect of backspin
 上官俊怡 2013301020076
+VPYTHON动画没有完成
 # 1.Abstract    
-The Magnus force is taken into consideration to deal with how backspin influences the motion of a batted ball. Besides, the drag coefficient is introduced to make the model more realistic.  
+The Magnus force is taken into consideration to deal with how backspin influences the motion of a batted ball. Besides, the drag coefficient is introduced to make the model more realistic. This report will include 2D and 3D pictures to demonstrate the motion. What's more, Vpython will be introduced for the first time in my work to visiualize the trajectory in a more direct way.  
 
 # 2.Background    
 Batted ball is popular among the westners, and many research has been conducted to figure out the best way to fight in the competition. There are a lot of books illustrating the motion of batted ball like The Physics of Baseball(by Robert K. Adair).  
@@ -38,7 +39,7 @@ From the analysis above, it can be deduced that
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2x%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-Bvv_x&plus;%5Cfrac%7BS_0%7D%7Bm%7D%28%5Comega_yv_z-%5Comega_zv_y%29%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2y%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-Bvv_y&plus;%5Cfrac%7BS_0%7D%7Bm%7D%28%5Comega_zv_x-%5Comega_xv_z%29-g%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2z%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-Bvv_z&plus;%5Cfrac%7BS_0%7D%7Bm%7D%28%5Comega_xv_y-%5Comega_yv_x%29)  
 
 # 4.Code  
-The code for [batted ball motion effected by spin](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex7_ch2.19/ex7_ball.py)动画Vpython尚未完成  
+The code for [batted ball motion effected by spin](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex7_ch2.19/ex7_ball.py)  
 
 # 5.Running and Analysis
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex7_ch2.19/fig7.1.png)  
@@ -56,5 +57,6 @@ Fig.4 is the trajectory of 3-dimension. The condition is the same as Fig.3. The 
 # 6.Acknowledgemen and Reference  
 - type the formulas with [codecogs](http://latex.codecogs.com/) in the procedure: right-click the formula, select the image attributes, copy the url in "Source" column, publish as a figure.  
 - 3d figure is based on [mplot3d tutorial](http://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#scatter-plots)  
+- [Vpython tutorial](http://vpython.org/)
 
   [^footer1]: The calculation of the Magnus force is based on [The project of Feng Chen](https://www.zybuluo.com/355073677/note/339666)

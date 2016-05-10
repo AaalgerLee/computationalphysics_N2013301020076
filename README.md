@@ -15,5 +15,9 @@ Hongyi Class
 ### 6.sixth exercise    
 report of [ex6.trajectory of the cannon](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/ex6_ch2.9)-待完成:动图点上传  
 ### 7. seventh exercise
-- L1: report of [ex7.problem2.19] 
+- L1: report of [ex7.problem2.19](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/ex7_ch2.19)待完成vpython可视化  
+### 8.
+### 9.
+### 10.
+### 11.
 
