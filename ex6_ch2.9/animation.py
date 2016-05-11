@@ -1,4 +1,3 @@
-import numpy as np   
 from matplotlib import pyplot as plt   
 from matplotlib import animation   
 import math  
@@ -63,7 +62,7 @@ def animate(j):
     return line,note,note1
 
 anim1=animation.FuncAnimation(fig, animate, init_func=init,  frames=90, interval=5)#, blit=True)  
-anim1.save('trajectoryanimation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+anim1.save('/home/shangguan/computationalphysics_N2013301020076/ex6_ch2.9/try/111.png')#anim1.save('11111.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 plt.show()  
 
 
