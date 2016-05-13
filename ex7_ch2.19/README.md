@@ -24,7 +24,7 @@ The atmospheric drag is concerned with the components of the velocity![](http://
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%20%7B%20B_%7B2%7D%20%7D%7B%20m%20%7D%20%3D0.0039&plus;%5Cfrac%7B0.0058%7D%7B1&plus;e%5E%7B%28v-v_%7Bd%7D%29/%5CDelta%7D%7D)  
 with![](http://latex.codecogs.com/gif.latex?%5CDelta%3D5m/s%2Cv_%7Bd%7D%3D35m/s)and v is the speed.  
 
-## 3.2. the Magnus Force[^footer1]:  
+## 3.2. the Magnus Force:  
 The upward component of the force on the lower half of the ball is proportional to the square of the velocity of the surface of the ball relative to the air. Besides, the downward component of the drag force on the upper half of the ball is proportional to the square of the relative velocity of that surface. So the Magnus force is equal to the difference of these two terms:  
 ![](http://latex.codecogs.com/gif.latex?F_M%5Cpropto%28v&plus;r%5Comega%29%5E2-%28v-r%5Comega%29%5E2%5Csim%20vr%5Comega)  
 Thus the spin-dependent force can be expressed as:  
@@ -58,5 +58,4 @@ Fig.4 is the trajectory of 3-dimension. The condition is the same as Fig.3. The 
 - type the formulas with [codecogs](http://latex.codecogs.com/) in the procedure: right-click the formula, select the image attributes, copy the url in "Source" column, publish as a figure.  
 - 3d figure is based on [mplot3d tutorial](http://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#scatter-plots)  
 - [Vpython tutorial](http://vpython.org/)
-
-  [^footer1]: The calculation of the Magnus force is based on [The project of Feng Chen](https://www.zybuluo.com/355073677/note/339666)
+- Part 3.2:the calculation of the Magnus force is based on [The project of Feng Chen](https://www.zybuluo.com/355073677/note/339666)
