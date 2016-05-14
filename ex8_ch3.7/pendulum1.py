@@ -58,6 +58,12 @@ plt.legend()
 plt.show()
 
 #animated figure
+def findmaximum(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+
 A=0
 OMEGA=0
 # first set up the figure, the axis, and the plot element we want to animate   
