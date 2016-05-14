@@ -44,7 +44,8 @@ Then loop through each ![](http://latex.codecogs.com/gif.latex?t_i%28i%5Cgeq%201
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Ctheta_%7Bi&plus;1%7D%3D2%5Ctheta_i-%5Ctheta_%7Bi-1%7D&plus;f%28%5Ctheta_i%2C%5Comega_i%2Ct_i%29%28%28%5CDelta%20t%29%29%5E2%20%5C%5C%5Comega_i%3D%28%5Ctheta_%7Bi&plus;1%7D-%5Ctheta_%7Bi-1%7D%29/%282%5CDelta%20t%29%20%5C%5Ct_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)  
 
 # 4.Code  
-The code for []  
+The code for [linear forced pendulum](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/pendulum1.py)  
+The code for [nonlinear pendulum](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/pendulum2.py)  
 
 # 5.Running and Analysis
 ## 5.1 damped Pendulum
@@ -56,11 +57,18 @@ It can be seen from this graph that as the damping coefficient increases, the os
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/figure_2.png)  
 Fig.2: This shows four damped driven pendulums whose results are given by Euler-Cromer method. Each has initial condition![](http://latex.codecogs.com/gif.latex?%5Ctheta_0%3D0.2%2Cq%3D1%2Cl%3D1)while other paremeters are indicated by the label.  
 It is obvious that the motion of pendulum is approaching a steady state. The driving force will pump energy into(or out of) the system and the imposed frequency will compete with the natural frequency of the pendulum. The frequency of oscillation is related to the frequency of driving force. The the steady oscillation frequency of the blue line is half as others, just as the driving force frequency. Besides, as![](http://latex.codecogs.com/gif.latex?F_D)increases, the amplitude will also increase, which is due to the fact that driving force is pumping energy into the system.  
-动图动图动图做死  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/1.gif)  
 This animated figure shows the variegation of motion with drivng force frequency with parameters setted as![](http://latex.codecogs.com/gif.latex?\theta_0=0.2,q=1,F_D=0.2,l=1). In the steady state, the pendulum amplitude varies. Resonance is the case when the amplitude is the greatest. From the animation, it can be deduced that![](http://latex.codecogs.com/gif.latex?%5COmega_D%3D3.0)may generate the resonance with amplitude 0.064.  
 
 ## 5.3 Nonlinear Pendulum
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/figure_3png.png)  
+Fig.3 shows the results calculated using Euler method, Euler Cromer method, Runge-Kutta method as well as Verlet method. It is clear that for Euler method, the amplitude grows in time. However, the other three methods fit each other well.  
 
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/figure_4.png)  
+Fig.4 shows the oscillation of pendulum with different![](http://latex.codecogs.com/gif.latex?\theta_0) with l=1and time step 0.02second. It can de deduced that as amplitude grows, the period grows accordingly.  
+
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/figure_5.png)  
+Fig.5 is drown by changeing thevalue of![](http://latex.codecogs.com/gif.latex?\theta_0),getting the amplitude and period and depicting them. It shows that period increases exponentially with amplitude.  
 
 
 # 6.Acknowledgemen and Reference  
