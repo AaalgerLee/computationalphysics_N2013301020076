@@ -65,10 +65,10 @@ This animated figure shows the variegation of motion with drivng force frequency
 Fig.3 shows the results calculated using Euler method, Euler Cromer method, Runge-Kutta method as well as Verlet method. It is clear that for Euler method, the amplitude grows in time. However, the other three methods fit each other well.  
 
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/figure_4.png)  
-Fig.4 shows the oscillation of pendulum with different![](http://latex.codecogs.com/gif.latex?\theta_0) with l=1and time step 0.02second. It can de deduced that as amplitude grows, the period grows accordingly.  
+Fig.4 shows the oscillation of pendulum with different![](http://latex.codecogs.com/gif.latex?%5Ctheta_0) with l=1and time step 0.02second. It can de deduced that as amplitude grows, the period grows accordingly.  
 
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/figure_5.png)  
-Fig.5 is drown by changeing thevalue of![](http://latex.codecogs.com/gif.latex?\theta_0),getting the amplitude and period and depicting them. It shows that period increases exponentially with amplitude.  
+Fig.5 is drown by changeing thevalue of![](http://latex.codecogs.com/gif.latex?%5Ctheta_0),getting the amplitude and period and depicting them. It shows that period increases exponentially with amplitude.  
 
 
 # 6.Acknowledgemen and Reference  
