@@ -21,8 +21,10 @@ In this project, second-order Runge-Kutta method is applied. Refer to the Append
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Ctheta%27%3D%5Ctheta_i&plus;%5Cfrac%7B1%7D%7B2%7D%5Comega_i%5CDelta%20t%20%5C%5C%5Comega%27%3D%5Comega_i&plus;%5Cfrac%7B1%7D%7B2%7Df%28%5Ctheta_i%2C%5Comega_i%2Ct_i%29%5CDelta%20t%20%5C%5Ct%27%3Dt_i&plus;%5Cfrac%7B1%7D%7B2%7D%5CDelta%20t%20%5C%5C%5Comega_%7Bi&plus;1%7D%3D%5Comega_i&plus;f%28%5Ctheta%27%2C%5Comega%27%2Ct%27%29%5CDelta%20t%20%5C%5C%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega%27%5CDelta%20t%20%5C%5Ct_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)  
 where ![](http://latex.codecogs.com/gif.latex?f%28%5Ctheta%2C%5Comega%2Ct%29%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega&plus;F_Dsin%28%5COmega_Dt%29)  
 
+- The value of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) is adjusted so as to keep it in the range between ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D). Now the pendulum is free to swing all the way around its pivot point, and values of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) differed by ![](http://latex.codecogs.com/gif.latex?2%5Cpi) correspond to the same position. So this adjustment is done because for ploting purpose it is convenient to keep ![](http://latex.codecogs.com/gif.latex?%5Ctheta) in the range.  
 
 # 4.Code  
+Here is the code for  
 
 # 5.Running and Analysis
 
