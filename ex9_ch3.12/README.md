@@ -4,11 +4,11 @@ Exercise 9 - chaos in the nonlinear, damped, driven pendulum(ex3.12/16/21)
 In this report, a physical pendulum is discussed. An external driving force, dissipation and nonlinearity are applied at the same time. Besides, Poincare section, attractor and bifurcation diagram are investigated to grasp a better undestanding of the movement of pendulum and the notation of chaos.  
 
 # 2.Background    
-- Physicsl pendulum: we add an external driving force, dissipation and nonlinearity to the pendulum at the same time rather than discuss these ingredients separately. First, we do not assume the small-angle approximation and thus do not expand ![](http://latex.codecogs.com/gif.latex?sin%5Ctheta)term in equation. second, friction of the form ![](http://latex.codecogs.com/gif.latex?-q%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D) and sinusoidal driving force ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29) are introduced. From this procedure, we are supposed to see: (1)it is possible for a system to be both deterministic and unpredictable and this is what the term chaos means;(2)the behavior in the chaotic regime is not completely random, but can be describe by a strange attractorin phase space.  
-- Chaos: the system to be both deterministic and unpredictable. That is, a system can oey certain determnistic laws physics, but stil exhibit behavior that is unpredictable du to an extreme sensitivity to initial conditions.  
-- Poincare section: in the phase-space graph, plot![](http://latex.codecogs.com/gif.latex?%5Comega)versus![](http://latex.codecogs.com/gif.latex?%5Ctheta)only at times that are in phase with the driving force. That is, only the points with ![](http://latex.codecogs.com/gif.latex?%5COmega_Dt%3D2n%5Cpi) are displayed where n is an integer. Ihis is known as Poincare section. And it is a very useful way to plot and analyze the behavior of a dynamical system.  
-- Attractor:the trajectory of pendulum is drawn to the surface, which is known as attractor. Chaotic attractors have a frictal structure and are usually reffered to as strange attractors.  
-- Bifurcation diagram: it is a nice way to predict how the trasition from nonchaos to chaos comes about. It can be constructed in the following manner. Calculate ![](http://latex.codecogs.com/gif.latex?%5Ctheta)as a function of time, wait for 300driving periods so that the initial transients have decayed away, plot![](http://latex.codecogs.com/gif.latex?%5Ctheta) at times that were in phase with the driving forcr as a function of ![](http://latex.codecogs.com/gif.latex?F_D) to 400th drive periods. And repeat the process for various ![](http://latex.codecogs.com/gif.latex?F_D) and show the result in a figure, which is known as bifurcation diagram.  
+- **Physicsl pendulum**: we add an external driving force, dissipation and nonlinearity to the pendulum at the same time rather than discuss these ingredients separately. First, we do not assume the small-angle approximation and thus do not expand ![](http://latex.codecogs.com/gif.latex?sin%5Ctheta)term in equation. second, friction of the form ![](http://latex.codecogs.com/gif.latex?-q%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D) and sinusoidal driving force ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29) are introduced. From this procedure, we are supposed to see: (1)it is possible for a system to be both deterministic and unpredictable and this is what the term chaos means;(2)the behavior in the chaotic regime is not completely random, but can be describe by a strange attractorin phase space.  
+- **Chaos**: the system to be both deterministic and unpredictable. That is, a system can oey certain determnistic laws physics, but stil exhibit behavior that is unpredictable du to an extreme sensitivity to initial conditions.  
+- **Poincare section**: in the phase-space graph, plot![](http://latex.codecogs.com/gif.latex?%5Comega)versus![](http://latex.codecogs.com/gif.latex?%5Ctheta)only at times that are in phase with the driving force. That is, only the points with ![](http://latex.codecogs.com/gif.latex?%5COmega_Dt%3D2n%5Cpi) are displayed where n is an integer. Ihis is known as Poincare section. And it is a very useful way to plot and analyze the behavior of a dynamical system.  
+- **Attractor**:the trajectory of pendulum is drawn to the surface, which is known as attractor. Chaotic attractors have a frictal structure and are usually reffered to as strange attractors.  
+- **Bifurcation diagram**: it is a nice way to predict how the trasition from nonchaos to chaos comes about. It can be constructed in the following manner. Calculate ![](http://latex.codecogs.com/gif.latex?%5Ctheta)as a function of time, wait for 300driving periods so that the initial transients have decayed away, plot![](http://latex.codecogs.com/gif.latex?%5Ctheta) at times that were in phase with the driving forcr as a function of ![](http://latex.codecogs.com/gif.latex?F_D) to 400th drive periods. And repeat the process for various ![](http://latex.codecogs.com/gif.latex?F_D) and show the result in a figure, which is known as bifurcation diagram.  
 
 
 # 3.Methodology and Solution
@@ -19,18 +19,21 @@ The above ordinary differential equation has no known exact solution.
 Thenatural frequency of undamped pendulum is ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D)  
 
 ## 3.2 Numerical Method
-- The equation of motion can be rewritten as two first-order differential equations as follows:  
+- **The equation of motion**  
+It can be rewritten as two first-order differential equations as follows:  
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega&plus;F_Dsin%28%5COmega_Dt%29%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega)  
 
-- Euler-Cromer Method  
+- **Euler-Cromer Method**  
 In this project, Euler-Cromer method is applied. Refer to the Appendix of the textbook, it can be deduced that:  
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Comega_%7Bi&plus;1%7D%3D%5Comega_i&plus;f%28%5Ctheta_i%2C%5Comega_i%2Ct_i%29%5CDelta%20t%20%5C%5C%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t%20%5C%5Ct_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)  
 where ![](http://latex.codecogs.com/gif.latex?f%28%5Ctheta%2C%5Comega%2Ct%29%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega&plus;F_Dsin%28%5COmega_Dt%29)  
 
-- The value of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) is adjusted so as to keep it in the range between ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D). Now the pendulum is free to swing all the way around its pivot point, and values of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) differed by ![](http://latex.codecogs.com/gif.latex?2%5Cpi) correspond to the same position. So this adjustment is done because for ploting purpose it is convenient to keep ![](http://latex.codecogs.com/gif.latex?%5Ctheta) in the range.  
+- **Adjust theta**  
+The value of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) is adjusted so as to keep it in the range between ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D). Now the pendulum is free to swing all the way around its pivot point, and values of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) differed by ![](http://latex.codecogs.com/gif.latex?2%5Cpi) correspond to the same position. So this adjustment is done because for ploting purpose it is convenient to keep ![](http://latex.codecogs.com/gif.latex?%5Ctheta) in the range.  
 
 # 4.Code  
-Here is the code for  
+Here is the code for[theta V.S.t & Phase-space Plot](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/ex9.1.py)  
+Here is the code for[poincare section](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/ex9.2.py)
 
 # 5.Running and Analysis
 ## 5.1 The Influence of ![](http://latex.codecogs.com/gif.latex?F_D)
