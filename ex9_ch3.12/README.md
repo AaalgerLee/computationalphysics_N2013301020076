@@ -8,21 +8,21 @@ In this report, a physical pendulum is discussed. An external driving force, dis
   We add an external driving force, dissipation and nonlinearity to the pendulum at the same time rather than discuss these ingredients separately. From this procedure, we are supposed to see: (1)it is possible for a system to be both deterministic and unpredictable and this is what the term chaos means;(2)the behavior in the chaotic regime is not completely random, but can be describe by a strange attractorin phase space.  
 
 - **Chaos:**  
-  The system to be both deterministic and unpredictable. That is, a system can oey certain determnistic laws physics, but stil exhibit behavior that is unpredictable du to an extreme sensitivity to initial conditions.  
+  The system to be both deterministic and unpredictable. That is, a system can obey certain determnistic laws of physics, but stil exhibit behavior that is unpredictable due to an extreme sensitivity to initial conditions.  
 
 - **Poincare section:**  
-  In the phase-space graph, plot![](http://latex.codecogs.com/gif.latex?%5Comega)versus![](http://latex.codecogs.com/gif.latex?%5Ctheta)only at times that are in phase with the driving force. That is, only the points with ![](http://latex.codecogs.com/gif.latex?%5COmega_Dt%3D2n%5Cpi) are displayed where n is an integer. Ihis is known as Poincare section. And it is a very useful way to plot and analyze the behavior of a dynamical system.  
+  In the phase-space graph, plot ![](http://latex.codecogs.com/gif.latex?%5Comega) versus ![](http://latex.codecogs.com/gif.latex?%5Ctheta) only at times that are in phase with the driving force. That is, only the points with ![](http://latex.codecogs.com/gif.latex?%5COmega_Dt%3D2n%5Cpi) are displayed where n is an integer. Ihis is known as Poincare section. And it is a very useful way to plot and analyze the behavior of a dynamical system.  
 
 - **Attractor:**  
   The trajectory of pendulum is drawn to the surface, which is known as attractor. Chaotic attractors have a frictal structure and are usually reffered to as strange attractors.  
 
 - **Bifurcation diagram:**  
-  It is a nice way to predict how the trasition from nonchaos to chaos comes about. It can be constructed in the following manner. Calculate ![](http://latex.codecogs.com/gif.latex?%5Ctheta)as a function of time, wait for 300driving periods so that the initial transients have decayed away, plot![](http://latex.codecogs.com/gif.latex?%5Ctheta) at times that were in phase with the driving forcr as a function of ![](http://latex.codecogs.com/gif.latex?F_D) to 400th drive periods. And repeat the process for various ![](http://latex.codecogs.com/gif.latex?F_D) and show the result in a figure, which is known as bifurcation diagram.  
+  It is a nice way to predict how the trasition from nonchaos to chaos comes about. It can be constructed in the following manner. Calculate ![](http://latex.codecogs.com/gif.latex?%5Ctheta) as a function of time, wait for 300driving periods so that the initial transients have decayed away, plot![](http://latex.codecogs.com/gif.latex?%5Ctheta) at times that were in phase with the driving forcr as a function of ![](http://latex.codecogs.com/gif.latex?F_D) to 400th drive periods. And repeat the process for various ![](http://latex.codecogs.com/gif.latex?F_D) and show the result in a figure, which is known as bifurcation diagram.  
 
 
 # 3.Methodology and Solution
 ## 3.1 Physical Model 
-Putting the ingredients together, the model is called a nonlinear, damped, driven pendulum, or the physical pendulum. First, we do not assume the small-angle approximation and thus do not expand ![](http://latex.codecogs.com/gif.latex?sin%5Ctheta)term in equation. second, friction of the form ![](http://latex.codecogs.com/gif.latex?-q%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D) and sinusoidal driving force ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29) are introduced. Therefore, the equation of motion is:  
+Putting the ingredients together, the model is called a nonlinear, damped, driven pendulum, or the physical pendulum. First, we do not assume the small-angle approximation and thus do not expand ![](http://latex.codecogs.com/gif.latex?sin%5Ctheta) term. second, friction of the form ![](http://latex.codecogs.com/gif.latex?-q%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D) and sinusoidal driving force ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29) are introduced. Therefore, the equation of motion is:  
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D&plus;F_Dsin%28%5COmega_Dt%29)  
 The above ordinary differential equation has no known exact solution.  
 The natural frequency of undamped pendulum is ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D)  
