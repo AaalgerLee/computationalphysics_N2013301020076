@@ -22,23 +22,23 @@ In this report, a physical pendulum is discussed. An external driving force, dis
 
 # 3.Methodology and Solution
 ## 3.1 Physical Model 
-Putting the ingredients together, the model is called a nonlinear, damped, driven pendulum, or the physical pendulum. First, we do not assume the small-angle approximation and thus do not expand ![](http://latex.codecogs.com/gif.latex?sin%5Ctheta) term. second, friction of the form ![](http://latex.codecogs.com/gif.latex?-q%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D) and sinusoidal driving force ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29) are introduced. Therefore, the equation of motion is:  
-![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D&plus;F_Dsin%28%5COmega_Dt%29)  
+Putting the ingredients together, the model is called a nonlinear, damped, driven pendulum, or the physical pendulum. First, we do not assume the small-angle approximation and thus do not expand ![](http://latex.codecogs.com/gif.latex?sin%5Ctheta) term. second, friction of the form <img src="http://chart.googleapis.com/chart?cht=tx&chl=-qd%5Ctheta%2Fdt" style="border:none;" /> and sinusoidal driving force ![](http://latex.codecogs.com/gif.latex?F_Dsin%28%5COmega_Dt%29) are introduced. Therefore, the equation of motion is:  
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Cfrac%7Bd%5E2%5Ctheta%7D%7Bdt%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Cfrac%7Bd%5Ctheta%7D%7Bdt%7D%2BF_Dsin(%5COmega_Dt)" style="border:none;" />    
 The above ordinary differential equation has no known exact solution.  
 The natural frequency of undamped pendulum is ![](http://latex.codecogs.com/gif.latex?%5COmega%3D%5Csqrt%7Bg/l%7D)  
 
 ## 3.2 Numerical Method
 **The equation of motion**  
-  It can be rewritten as two first-order differential equations as follows:  
-![](http://latex.codecogs.com/gif.latex?%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega&plus;F_Dsin%28%5COmega_Dt%29%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega)  
+It can be rewritten as two first-order differential equations as follows:  
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5C%5C%5Cfrac%7Bd%5Comega%7D%7Bdt%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega%2BF_Dsin(%5COmega_Dt)%0A%5C%5C%5Cfrac%7Bd%5Ctheta%7D%7Bdt%7D%3D%5Comega" style="border:none;" />  
 
 **Euler-Cromer Method**  
-  In this project, Euler-Cromer method is applied. Refer to the Appendix of the textbook, it can be deduced that:  
-![](http://latex.codecogs.com/gif.latex?%5C%5C%5Comega_%7Bi&plus;1%7D%3D%5Comega_i&plus;f%28%5Ctheta_i%2C%5Comega_i%2Ct_i%29%5CDelta%20t%20%5C%5C%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t%20%5C%5Ct_%7Bi&plus;1%7D%3Dt_i&plus;%5CDelta%20t)  
-where ![](http://latex.codecogs.com/gif.latex?f%28%5Ctheta%2C%5Comega%2Ct%29%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega&plus;F_Dsin%28%5COmega_Dt%29)  
+In this project, Euler-Cromer method is applied. Refer to the Appendix of the textbook, it can be deduced that:  
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5C%5C%5Comega_%7Bi%2B1%7D%3D%5Comega_i%2B%5B-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta_i-q%5Comega_i%2BF_Dsin(%5COmega_Dt_i)%5D%5CDelta%20t%0A%5C%5C%5Ctheta_%7Bi%2B1%7D%3D%5Ctheta_i%2B%5Comega_%7Bi%2B1%7D%5CDelta%20t%0A%5C%5Ct_%7Bi%2B1%7D%3Dt_i%2B%5CDelta%20t" style="border:none;" />  
+or <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5C%5C%5Comega_%7Bi%2B1%7D%3D%5Comega_i%2Bf(%5Ctheta_i%2C%5Comega_i%2Ct_i)%5CDelta%20t%0A%5C%5C%5Ctheta_%7Bi%2B1%7D%3D%5Ctheta_i%2B%5Comega_%7Bi%2B1%7D%5CDelta%20t%0A%5C%5Ct_%7Bi%2B1%7D%3Dt_i%2B%5CDelta%20t" style="border:none;" /> where <img src="http://chart.googleapis.com/chart?cht=tx&chl=f(%5Ctheta%2C%5Comega%2Ct)%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta-q%5Comega%2BF_Dsin(%5COmega_Dt)" style="border:none;" />   
 
-**Adjust ![](http://latex.codecogs.com/gif.latex?%5Ctheta)**  
-  The value of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) is adjusted so as to keep it in the range between ![](http://latex.codecogs.com/gif.latex?%5B%5Cpi%2C-%5Cpi%5D). Now the pendulum is free to swing all the way around its pivot point, and values of ![](http://latex.codecogs.com/gif.latex?%5Ctheta) differed by ![](http://latex.codecogs.com/gif.latex?2%5Cpi) correspond to the same position. So this adjustment is done because for ploting purpose it is convenient to keep ![](http://latex.codecogs.com/gif.latex?%5Ctheta) in the range.  
+**Adjust <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta" style="border:none;" />**  
+The value of <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta" style="border:none;" /> is adjusted so as to keep it in the range <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5B-%5Cpi%2C%2B%5Cpi%5D" style="border:none;" /> . Now the pendulum is free to swing all the way around its pivot point, and values of <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta" style="border:none;" /> differed by ![](http://latex.codecogs.com/gif.latex?2%5Cpi) correspond to the same position. So this adjustment is done because for ploting purpose it is convenient to keep <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Ctheta" style="border:none;" /> in the range.  
 
 # 4.Code  
 Here is the code for [theta V.S.t & Phase-space Plot](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/ex9.1.py)  
@@ -79,7 +79,7 @@ Motion whose period is n times the drive period will yield n points on the bifur
 
 
 # 6.Acknowledgemen and Reference  
-- type the formulas with [codecogs](http://latex.codecogs.com/)  
+- type the formulas with [codecogs](http://latex.codecogs.com/) and [数学公式生成器](http://www.ruanyifeng.com/webapp/formula.html) 
 -[matplotlib教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
 
 
