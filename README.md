@@ -11,7 +11,7 @@ Hongyi Class
 - sixth exercise-[ex6.trajectory of the cannon](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/ex6_ch2.9)  
 - seventh exercise-[ex7.problem2.19](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/tree/master/ex7_ch2.19)待完成vpython可视化  
 - eighth exercise-[ex8.problem3.7&3.9](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex8_ch3.7/README.md) motion of pendulum  
-- ninth exercise-[ex9](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/README.md)还差一丢丢  
+- ninth exercise-[ex9](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/README.md)  
 - tenth exercise  
 - eleventh exercise  
 - twelvth exercise  
