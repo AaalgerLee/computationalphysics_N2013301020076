@@ -76,6 +76,6 @@ Motion whose period is n times the drive period will yield n points on the bifur
 
 # 6.Acknowledgemen and Reference  
 - type the formulas with [codecogs](http://latex.codecogs.com/) and [数学公式生成器](http://www.ruanyifeng.com/webapp/formula.html)  
--[matplotlib教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
+- [matplotlib教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
 
 
