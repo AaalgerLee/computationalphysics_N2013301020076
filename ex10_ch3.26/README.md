@@ -1,4 +1,4 @@
-Exercise 10 – the Lorentz model ex 3.26/3.29/3.31
+Exercise 10 – the Lorentz model ex 3.26/3.29/3.31   
 上官俊怡 2013301020076
 # 1.Abstract    
 In this report, the Lorentz model is applied to grasp a basic understanding of fluid mechanics, especially Rayleigh-Benard problem. Besides, phase-space plot, Poincare section are investigated.  
