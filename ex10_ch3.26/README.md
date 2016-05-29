@@ -13,7 +13,8 @@ The Lorentz variables <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%2
 
 **Euler Method**  
 Euler-Cromer method is designed for second-order differential equations, so it is not directly applicable to the Lorentz model.  
-Here, the Euler algorithm can actually be used to treat the Lorentz problem. 
+Here, the Euler algorithm can actually be used to treat the Lorentz problem.  
+<img src="http://chart.googleapis.com/chart?cht=tx&chl=%5C%5Cx_%7Bi%2B1%7D%3Dx_i%2B%5Csigma%20(y_i-x_i)dt%0A%5C%5Cy_%7Bi%2B1%7D%3Dy_i%2B(-x_iz_i%2Brx_i-y_i)dt%0A%5C%5Cz_%7Bi%2B1%7D%3Dz_i%2B(x_iy_i-bz_i)dt%0A" style="border:none;" />    
 
 **Parameters in the Lorentz Model**  
 There are three parameters in the Lorentz equations <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csigma%2Cb%2Cr" style="border:none;" />, and the behavior one finds depends on their values.  
