@@ -25,3 +25,4 @@ In this report, the custom is followed and <img src="http://chart.googleapis.com
 
 # 6.Acknowledgemen and Reference  
 -  [数学公式生成器] ( http://www.ruanyifeng.com/webapp/formula.html)  
+-  Computational Physics, Nicholas J. Giordano & Hisao Nakanishi  
