@@ -73,9 +73,9 @@ To know this deeper, bifurcation diagram is drawn. For each value of<img src="ht
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex9_ch3.12/figure_3.4.png)  
 Motion whose period is n times the drive period will yield n points on the bifurcation diagram for that value of <img src="http://chart.googleapis.com/chart?cht=tx&chl=F_D" style="border:none;" />. From the diagram above, we know that the period is <img src="http://chart.googleapis.com/chart?cht=tx&chl=T_D%3D2%5Cpi%2F%5COmega_D" style="border:none;" /> up to approximately<img src="http://chart.googleapis.com/chart?cht=tx&chl=F_D%3D1.402" style="border:none;" />, followed by a transition to period-<img src="http://chart.googleapis.com/chart?cht=tx&chl=2T_D" style="border:none;" /> motion up to <img src="http://chart.googleapis.com/chart?cht=tx&chl=F_D%3D1.437" style="border:none;" />. The motion with period <img src="http://chart.googleapis.com/chart?cht=tx&chl=4T_D" style="border:none;" /> dose not end until<img src="http://chart.googleapis.com/chart?cht=tx&chl=F_D%3D1.447" style="border:none;" />. The range <img src="http://chart.googleapis.com/chart?cht=tx&chl=1.447%3CF_D%3C1.454" style="border:none;" /> corresponds to period-<img src="http://chart.googleapis.com/chart?cht=tx&chl=8T_D" style="border:none;" /> motion.  
 
-
 # 6.Acknowledgemen and Reference  
 - type the formulas with [codecogs](http://latex.codecogs.com/) and [数学公式生成器](http://www.ruanyifeng.com/webapp/formula.html)  
-- [matplotlib教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)
+- [matplotlib教程](http://liam0205.me/2014/09/11/matplotlib-tutorial-zh-cn/)   
+- Computational Physics, Nicholas J. Giordano & Hisao Nakanishi
 
 
