@@ -80,7 +80,6 @@ plt.show()
 
 D=loren(1,0,0,35,sigma,b,dt,T)
 #Figure3.3 poincare section,r=35
-plt.figure(figsize=(14,6))
 plt.subplot(1,2,1)#x=0
 poix=poincare(D[0],D[1],D[2],0)
 plt.scatter(poix[0],poix[1],s=10)

@@ -42,9 +42,16 @@ Besides, the trajectory can be shown in a GIF so the motion is exhibited more cl
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/keep_r%3D25.gif)  
 
 ## 5.3 Poincare Section and Regularity  
-Since the Fig2.1, 2.2, 2.3 certainly give some hints of an underlying regularity, we can explore it by plotting the Poincare section.  
+Since the Fig2.1, 2.2, 2.3 certainly give some hints of an underlying regularity, we can explore it by plotting the Poincare section. Because there are 3 Lorentz variables, it is natural to consider two-dimensional slices through the trajectory.  
+In this section, the parameters are set as <img src="http://chart.googleapis.com/chart?cht=tx&chl=x_0%3D1%2Cy_0%3D0%2Cz_0%3D0%2C%5Csigma%3D10%2Cb%3D8%2F3%2Cdt%3D0.0001" style="border:none;" /> and the plot is drawn up to <img src="http://chart.googleapis.com/chart?cht=tx&chl=T%3D200" style="border:none;" />.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_3.1.png)
 
-
+The figure above is the Poincare section for <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />. The left if the intersection with <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%3D0" style="border:none;" /> while the right is <img src="http://chart.googleapis.com/chart?cht=tx&chl=y%3D0" style="border:none;" />.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_3.3.png)
+These figures are also for <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />. However, they are the intersection of the trajectory with the plane <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%3D2" style="border:none;" />, <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%3D-2" style="border:none;" />, <img src="http://chart.googleapis.com/chart?cht=tx&chl=y%3D2" style="border:none;" /> and <img src="http://chart.googleapis.com/chart?cht=tx&chl=y%3D-2" style="border:none;" /> respectively.  
+We can see from these figures that evev though the behavior is strongly chaotic, there is a very high degree of regularity in the phase-space trejectory.  
+Change the value of <img src="http://chart.googleapis.com/chart?cht=tx&chl=r" style="border:none;" /> to <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D35" style="border:none;" />, we have the figure below.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_3.7.png)
 
 
 
