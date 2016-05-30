@@ -23,6 +23,31 @@ In this report, the custom is followed and <img src="http://chart.googleapis.com
 # 4.Code  
 
 # 5.Running and Analysis
+## 5.1 Lorentz Variables versus Time 
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_1.png)  
+This is the result of variation of the Lorentz variables <img src="http://chart.googleapis.com/chart?cht=tx&chl=y,z" style="border:none;" /> as a function of time.  The calculation is performed using the Euler method with a time step <img src="http://chart.googleapis.com/chart?cht=tx&chl=dt%3D0.0001" style="border:none;" /> and other parameters set as <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csigma%3D10%2Cb%3D8%2F3" style="border:none;" />. The initial conditions are <img src="http://chart.googleapis.com/chart?cht=tx&chl=x_0%3D1%2Cy_0%3D0%2Cz_0%3D0" style="border:none;" />.  
+As for <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D5%2C10%2C15" style="border:none;" />,  the behaviors are similar: there is an initial transient, and after it decays away, <img src="http://chart.googleapis.com/chart?cht=tx&chl=y,z" style="border:none;" /> are constant independent of time.  The transient takes longer as <img src="http://chart.googleapis.com/chart?cht=tx&chl=r" style="border:none;" /> increases. These cases correspond to steady convective in the original fluid, analogous to the regular nonchaotic motion of the pendulum.  
+As for <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />, the initial transient is roughly periodic, but it gives way to irregular. This corresponds to the chaotic condition.  
+To have a clearer picture of this transition from steady convective to chaotic behavior, a GIF is made by changing the value of <img src="http://chart.googleapis.com/chart?cht=tx&chl=r" style="border:none;" />.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure1.change_r.gif)  
+as can be seen from the above, the transition takes place somewhere near <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />.  
+
+## 5.2 Chaotic Behavior for <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />
+First, we consider the phase-space plot for the Lorents model. Now that we have three variables in Lorentz model, projection of the trajectory can be considered.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_2.1.png)  
+This  is the phase-space plot for Lorentz model with <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />. The other parameters are set as <img src="http://chart.googleapis.com/chart?cht=tx&chl=x_0%3D1%2Cy_0%3D0%2Cz_0%3D0%2C%5Csigma%3D10%2Cb%3D8%2F3%2Cdt%3D0.0001%2CT%3D50" style="border:none;" />. From left to right, the figures are y versus x, z versus x and z versus y respectively.  
+To show it more directly, a 3D image is made to show the trajectory.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_2.4.png)  
+Besides, the trajectory can be shown in a GIF so the motion is exhibited more clearly.  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/keep_r%3D25.gif)  
+
+## 5.3 Poincare Section and Regularity  
+Since the Fig2.1, 2.2, 2.3 certainly give some hints of an underlying regularity, we can explore it by plotting the Poincare section.  
+
+
+
+
+
 
 # 6.Acknowledgemen and Reference  
 -  [数学公式生成器] ( http://www.ruanyifeng.com/webapp/formula.html)  
