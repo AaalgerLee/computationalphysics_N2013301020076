@@ -21,6 +21,10 @@ There are three parameters in the Lorentz equations <img src="http://chart.googl
 In this report, the custom is followed and <img src="http://chart.googleapis.com/chart?cht=tx&chl=%5Csigma%3D10%2Cb%3D8%2F3" style="border:none;" /> is used. The parameter <img src="http://chart.googleapis.com/chart?cht=tx&chl=r" style="border:none;" /> is a measure of the temperature difference between the top and the bottom of the fluid. In fact, <img src="http://chart.googleapis.com/chart?cht=tx&chl=r" style="border:none;" /> plays the role analogous to the drive amplitude.
 
 # 4.Code  
+Code for [Fig.1.1-2:y/z VS time&2.1-2.3phase-space plot&2.4:3Dplot](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/10.1.py)  
+Code for [animation to change r](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/10.1change_r.py)  
+Code for [animation of trajectory to keep r=25](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/10.2keep_r%3D25.py)  
+Code for [Poincare Section](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/10.3poincare.py)  
 
 # 5.Running and Analysis
 ## 5.1 Lorentz Variables versus Time 
@@ -51,9 +55,7 @@ The figure above is the Poincare section for <img src="http://chart.googleapis.c
 These figures are also for <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D25" style="border:none;" />. However, they are the intersection of the trajectory with the plane <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%3D2" style="border:none;" />, <img src="http://chart.googleapis.com/chart?cht=tx&chl=x%3D-2" style="border:none;" />, <img src="http://chart.googleapis.com/chart?cht=tx&chl=y%3D2" style="border:none;" /> and <img src="http://chart.googleapis.com/chart?cht=tx&chl=y%3D-2" style="border:none;" /> respectively.  
 We can see from these figures that evev though the behavior is strongly chaotic, there is a very high degree of regularity in the phase-space trejectory.  
 Change the value of <img src="http://chart.googleapis.com/chart?cht=tx&chl=r" style="border:none;" /> to <img src="http://chart.googleapis.com/chart?cht=tx&chl=r%3D35" style="border:none;" />, we have the figure below.  
-![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_3.7.png)
-
-
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/figure_3.7.png)  
 
 
 # 6.Acknowledgemen and Reference  
