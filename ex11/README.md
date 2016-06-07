@@ -1,11 +1,10 @@
-Exercise 11---the solar system problem 4.7+4.9+4.11  
+Exercise 11---the solar system problem 4.7/4.9/4.11,in which 4.7 is chosen  
 上官俊怡 2013301020076  
-# 1.Abstract    
-双星，到地球和太阳（带入实际质量）  
-进动  
+# 1.Abstract
+In this report, a bouble-star system is considered in the rest frame as well as the center-of-mass frame to figure out how the trajectory varies with parameters, or the initial condition. Astronomical units is introduced to simplify the numerical calculation.  
 
-# 2.Background    
-
+# 2.Background
+There are many different situations in the study of planetary motion. Now consider a hypothetical, ideal celestial system consisting of two planets. Both experience only the gravitation produced by the other one.A few of the properties are investigated here.  
 
 # 3. Methodology and Solution 
 ## 3.1 Astronomical Units (AU)
@@ -48,16 +47,14 @@ Thus the Euler-Cromer method can be applied as:
 ![](http://latex.codecogs.com/gif.latex?%5C%5Cv_%7Bx1c%2Ci&plus;1%7D%3Dv_%7Bx1c%2Ci%7D&plus;%5Calpha%20%5Cfrac%7Bx_%7B1c%2Ci%7D%7D%7B%28x%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7D%20dt%20%5C%5Cv_%7By1c%2Ci&plus;1%7D%3Dv_%7By1c%2Ci%7D&plus;%5Calpha%20%5Cfrac%7By_%7B1c%2Ci%7D%7D%7B%28x%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7Ddt%20%5C%5Cx_%7B1c%2Ci&plus;1%7D%3Dx_%7B1c%2Ci%7D&plus;v_%7Bx1c%2Ci&plus;1%7Ddt%20%5C%5Cy_%7B1c%2Ci&plus;1%7D%3Dy_%7B1c%2Ci%7D&plus;v_%7By1c%2Ci&plus;1%7Ddt)  
 while the initial condition is the values of ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bv_%7B10%7D%7D%2C%5Coverrightarrow%7Br_%7B10%7D%7D%2C%5Coverrightarrow%7Bv_%7B20%7D%7D)  
 
-
-## 3.4 
-
-
 # 4.Code  
+The code for [fugure for Double-Star System](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/11.1.py)  
+The code for GIF figures in [Rest Frame](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/11.2RestF.py) and [Center-of-Mass Frame](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/11.2COM.py)  
 
 # 5.Running and Analysis
 ## 5.1 Double-Star System
-1. When the mass of two planets is the same, say ![](http://latex.codecogs.com/gif.latex?m_1%3Dm_2%3D1.0)  
-By keeping part of the initial condition as ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bx_%7B10%7D%7D%3D%281.5%2C0.0%29%2C%5Coverrightarrow%7Bv_%7B20%7D%7D%3D%280.0%2C-1.0%29%2Cv_%7B1x0%7D%3D0), change ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D), we have  
+**When the mass of two planets is the same**
+Suppose![](http://latex.codecogs.com/gif.latex?m_1%3Dm_2%3D1.0). By keeping part of the initial condition as ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bx_%7B10%7D%7D%3D%281.5%2C0.0%29%2C%5Coverrightarrow%7Bv_%7B20%7D%7D%3D%280.0%2C-1.0%29%2Cv_%7B1x0%7D%3D0), change ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D), we have  
 
 When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D0.5), the motion is revealed below. The center of mass is moving along one direction and the planets are circuling around it.   
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/figure_1_0.5.png)  
@@ -75,24 +72,20 @@ When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D4.0), the motion is r
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/figure_1_4.0.png)  
 
 
-
-2. When the masses of two planets are slightly different, say, ![](http://latex.codecogs.com/gif.latex?m_1%3D1.0%2Cm_2%3D1.1)  
-By changing the initial speed of one planet and marking the parameters on the figure, we can see  
+**When the masses of two planets are slightly different**  
+Suppose ![](http://latex.codecogs.com/gif.latex?m_1%3D1.0%2Cm_2%3D1.1). By changing the initial speed of one planet and marking the parameters on the figure, we can see  
 The motion in the REST FRAME is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/RestFm2%3D1.1.gif)  
 The motion in the COM FRAME is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/COMm2%3D1.1.gif)  
+It can be seen that there exists a range of ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D) so as to make the planets attract each other. Outside the range is the escaping velocity.  
 
-3. When the mass difference is great, say, ![](http://latex.codecogs.com/gif.latex?m_1%3D0.001%2Cm_2%3D1.0)  
-By changing the initial speed of one planet and marking the parameters on the figure, we can see  
+**When the mass difference is great**  
+Suppose ![](http://latex.codecogs.com/gif.latex?m_1%3D0.001%2Cm_2%3D1.0). By changing the initial speed of one planet and marking the parameters on the figure, we can see  
 The motion in the REST FRAME is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/RestFm1%3D0.001.gif)  
 The motion in the COM FRAME is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/COMm1%3D0.001.gif)  
-
-## 5.2
-
-
 
 
 #6. Acknowledgement and Reference
