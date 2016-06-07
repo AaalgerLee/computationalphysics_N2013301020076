@@ -50,7 +50,6 @@ y1=map(lambda a,b:a+b,rc[1],r1c[1])
 x2=map(lambda a,b:a+b,rc[0],r2c[0])
 y2=map(lambda a,b:a+b,rc[1],r2c[1])
 
-
 plt.subplot(1,2,1)
 plt.plot(x1,y1,label='planet 1')
 plt.plot(x2,y2,label='planet 2')
@@ -71,5 +70,4 @@ plt.text(-78,-78,r'$\overrightarrow{x_{10}}=(%s,%s)$'%(x10,y10)+'\n$\overrightar
 plt.legend()
 
 plt.show()
-
 
