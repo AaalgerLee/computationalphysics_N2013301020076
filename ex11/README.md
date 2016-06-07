@@ -53,16 +53,16 @@ The code for GIF figures in [Rest Frame](https://github.com/JunyiShangguan/compu
 
 # 5.Running and Analysis
 ## 5.1 Double-Star System
-**When the mass of two planets is the same**
-Suppose![](http://latex.codecogs.com/gif.latex?m_1%3Dm_2%3D1.0). By keeping part of the initial condition as ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bx_%7B10%7D%7D%3D%281.5%2C0.0%29%2C%5Coverrightarrow%7Bv_%7B20%7D%7D%3D%280.0%2C-1.0%29%2Cv_%7B1x0%7D%3D0), change ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D), we have  
+**When the mass of two planets is the same**  
+Suppose![](http://latex.codecogs.com/gif.latex?m_1%3Dm_2%3D1.0). By keeping part of the initial condition as ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bx_%7B10%7D%7D%3D%281.5%2C0.0%29%2C%5Coverrightarrow%7Bv_%7B20%7D%7D%3D%280.0%2C-1.0%29%2Cv_%7B1x0%7D%3D0), change ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D), we have the following results.  
 
-When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D0.5), the motion is revealed below. The center of mass is moving along one direction and the planets are circuling around it.   
+When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D0.5), the motion is revealed below. The center of mass is moving along one direction and the planets are in orbit around around it.   
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/figure_1_0.5.png)  
 
 When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D1.0), the motion is revealed below. The center of mass is static and the planets are moving in a trajectory like a circle with slight precession.  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/figure_1_1.0.png)  
 
-When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D1.5), the motion is revealed below. The planets are moving regularily. Viewing in the COM frame, both have a ellipital-like orbit.  
+When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D1.5), the motion is revealed below. The planets are moving regularly. Viewing in the COM frame, both have a ellipse-like orbit.  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/figure_1_1.5.png)  
 
 When ![](http://latex.codecogs.com/gif.latex?v_%7B1y0%7D%3D3.0), the motion is revealed below and it is similar to the previous one.   
@@ -86,7 +86,6 @@ The motion in the REST FRAME is:
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/RestFm1%3D0.001.gif)  
 The motion in the COM FRAME is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/COMm1%3D0.001.gif)  
-
 
 #6. Acknowledgement and Reference
 -  [数学公式生成器] ( http://www.ruanyifeng.com/webapp/formula.html)
