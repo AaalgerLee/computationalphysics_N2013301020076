@@ -34,24 +34,35 @@ Substitute ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Br_%7B2c%7
 So the solution is   
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%5Coverrightarrow%7Br_%7B1%7D%7D%3D%5Coverrightarrow%7Br_c%7D&plus;%5Coverrightarrow%7Br_%7B1c%7D%7D%20%5C%5C%5Coverrightarrow%7Br_%7B2%7D%7D%3D%5Coverrightarrow%7Br_c%7D-%5Cfrac%7Bm_1%7D%7Bm_2%7D%5Coverrightarrow%7Br_%7B1c%7D%7D)  
 
+For simplicity, the rest frame and the initial Center-of-Mass frame can be constracted in this way:for the rest frame, the x-axis is the line connecting both planet, while the y-axis is perpendicular to the x-axis from the point of center of mass. Besides, the Center-of-Mass frame in the beginning coincides with the rest frame.
+
 ## 3.3 Euler-Cromer Method 
 The main point is to solve equation (*). That can be interpreted as:   
-![](http://latex.codecogs.com/gif.latex?%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%20x_%7B1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7Bx1c%7D%2C%5Cfrac%7B%5Cmathrm%7Bd%7D%20v_%7Bx1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Calpha%20%5Cfrac%7Bx_%7B1c%7D%7D%7B%28x%7B_%7B1c%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7D%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%20y_%7B1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7By1c%7D%2C%5Cfrac%7B%5Cmathrm%7Bd%7D%20v_%7By1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Calpha%20%5Cfrac%7By_%7B1c%7D%7D%7B%28x%7B_%7B1c%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7D)    
+![](http://latex.codecogs.com/gif.latex?%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%20x_%7B1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7Bx1c%7D%2C%5Cfrac%7B%5Cmathrm%7Bd%7D%20v_%7Bx1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Calpha%20%5Cfrac%7Bx_%7B1c%7D%7D%7B%28x%7B_%7B1c%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7D%20%5C%5C%5Cfrac%7B%5Cmathrm%7Bd%7D%20y_%7B1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3Dv_%7By1c%7D%2C%5Cfrac%7B%5Cmathrm%7Bd%7D%20v_%7By1c%7D%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Calpha%20%5Cfrac%7By_%7B1c%7D%7D%7B%28x%7B_%7B1c%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7D)  
+where ![](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D-%5Cfrac%7BGm_2%7D%7B%281&plus;%5Cfrac%7Bm_1%7D%7Bm_2%7D%29%5E2%7D) for simplicity.  
+Then, we can use the mass of sun as 1 unit of mass to simplify the problem of two-body motion. So we have  
+![](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D-%5Cfrac%7BGm_s%5Ccdot%20%5Cfrac%7Bm_2%7D%7Bm_s%7D%7D%7B%281&plus;%5Cfrac%7Bm_1%7D%7Bm_s%7D/%5Cfrac%7Bm_2%7D%7Bm_s%7D%29%5E2%7D%3D%5Cfrac%7B4%5Cpi%5E2%5Ccdot%20%5Cfrac%7Bm_2%7D%7Bm_s%7D%7D%7B%281&plus;%5Cfrac%7Bm_1%7D%7Bm_s%7D/%5Cfrac%7Bm_2%7D%7Bm_s%7D%29%5E2%7D)  
+
 Thus the Euler-Cromer method can be applied as:  
 ![](http://latex.codecogs.com/gif.latex?%5C%5Cv_%7Bx1c%2Ci&plus;1%7D%3Dv_%7Bx1c%2Ci%7D&plus;%5Calpha%20%5Cfrac%7Bx_%7B1c%2Ci%7D%7D%7B%28x%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7D%20dt%20%5C%5Cv_%7By1c%2Ci&plus;1%7D%3Dv_%7By1c%2Ci%7D&plus;%5Calpha%20%5Cfrac%7By_%7B1c%2Ci%7D%7D%7B%28x%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D&plus;y%7B_%7B1c%2Ci%7D%7D%5E%7B2%7D%29%5E%7B3/2%7D%7Ddt%20%5C%5Cx_%7B1c%2Ci&plus;1%7D%3Dx_%7B1c%2Ci%7D&plus;v_%7Bx1c%2Ci&plus;1%7Ddt%20%5C%5Cy_%7B1c%2Ci&plus;1%7D%3Dy_%7B1c%2Ci%7D&plus;v_%7By1c%2Ci&plus;1%7Ddt)  
+while the initial condition is the values of ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7Bv_%7B10%7D%7D%2C%5Coverrightarrow%7Br_%7B10%7D%7D%2C%5Coverrightarrow%7Bv_%7B20%7D%7D)  
+
 
 ## 3.4 
-
-
-
-  
-
-
 
 
 # 4.Code  
 
 # 5.Running and Analysis
+## 5.1 Double-Star System
+质量相同
+质量略不同-2动图
+质量很不同-2动图
+
+## 5.2
+
+
+
 
 #6. Acknowledgement and Reference
 -  [数学公式生成器] ( http://www.ruanyifeng.com/webapp/formula.html)
