@@ -58,7 +58,7 @@ def animate(j):
     
     return line,line1,note
 anim1=animation.FuncAnimation(fig, animate, init_func=init, frames=160, interval=50)
-anim1.save('/home/shangguan/computationalphysics_N2013301020076/ex11/COMm1=0.001/haha.png')
+#anim1.save('/home/shangguan/computationalphysics_N2013301020076/ex11/COMm1=0.001/haha.png')
 plt.show()  
 
 
