@@ -21,7 +21,8 @@ Here, for simplicity, we consider only three planets(the Sun, the Earth and the 
 
 
 # 4. Code
-
+Code for [the Sun is tationary](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/12.1.1.py)  
+Code for [the Sun is NOT stationary](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/12.1.2.py)  
 
 
 # 5. Running and Analysis
@@ -48,9 +49,7 @@ When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?1000
 The motion of the Earth is completely unstable. However, in the case of ![](http://latex.codecogs.com/gif.latex?1000m_J), the mass of the Jupiter is of the order of the Sun, so the simulation to treat the Sun stationary is not appropriate here.  
 
 To have a clearer picture of the influence of the mass of the Jupiter on the motion of the Earth, the animation below is the trajectories of various Jupiter masses.  
-在这里在这里哈哈哈
-
-
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/1.stationary.gif)  
 
 ## 5.2 The Sun is Not Stationary  
 This is demonstrated in both the Rest Frame and the Center-of-Mass (COM) Frame.
@@ -71,10 +70,10 @@ When the mass of the Jupiter equals ![](http://latex.codecogs.com/gif.latex?300m
 The motions of each planet in the system is complicated and almost chaotic.
 
 To grasp a deeper understanding of the Three-Body Simulation, animations are made in the Rest Frame and the COM Frame as follows. The variance of the mass of the Jupiter is marked in the figures.  
-
-
-
-
+In the Rest Frame:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/2.1restframe.gif)  
+In the COM Frame:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/2.2COMframe.gif)  
 
 # 6. Acknowledgement and Reference
 - [codecogs](http://latex.codecogs.com/)
