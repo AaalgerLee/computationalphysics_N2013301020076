@@ -7,9 +7,9 @@ A three-body system made up of the Sun, the Earth and the Jupiter is built to in
 
 # 2. Background
 In the problem of celestial mechanics, three-body problem or n-body problem is much more common than two-body ones. Meanwhile, their analytical theory becomes much more complicated. Since Jupiter is the largest planet in the solar system, we consider a three-body problem consisting of the Sun, the Earth and the Jupiter. Without Jupiter, the orbit of the Earth is stable and unchanging with time.   
-There are many gaps in the plot of the distribution of asteriods between the Sun and the Jupiter in the solar system, which are known as the Kirkwood gaps now. For any asteriod in the Kirkwood gaps, it will show the phenomena of resonance. It will be at the same point or points in its orbit each time Jupiter comes closest and the effect of Jupiter during each approach will accumulate and lead to a large perturbation of its orbit. The orbit of the asteriod may  be “smeared out”.  
-The motion of Hyperion is one case of chaos that is fairly simple. In the solar system, all moons but the Hyperion exhibit so-called synchronism: the spin of the moon is synchronized with its orbital motion about some planet. The exception of the Hyperion is due to its shape and its highly elliptical orbit.  
-常见质量98书，sun，earth，jupiter  
+Besudes, we have the masses of the planets as follows:  
+![](http://latex.codecogs.com/gif.latex?m_S%3D2.0%5Ctimes10%5E%7B30%7Dkg%2Cm_E%3D6.0%5Ctimes10%5E%7B24%7Dkg%2Cm_J%3D1.9%5Ctimes10%5E%7B27%7Dkg)  
+![](http://latex.codecogs.com/gif.latex?x_S%3D0%2Cx_E%3D1AU%2Cm_J%3D5.2AU)  
 
 # 3. Methodology and Solutions
 ## 3.1. Three-Body Problem
@@ -18,7 +18,11 @@ Generally, the magnitude of gravitational force between two planet is
 The total force that the planet labeled by the subscript ![](http://latex.codecogs.com/gif.latex?i) experiences is  
 ![](http://latex.codecogs.com/gif.latex?%5Coverrightarrow%7BF_i%7D%3D%5Csum_%7Bj%7D%5E%7Bj%5Cneq%20i%7D%5Cfrac%7BGm_im_j%7D%7B%5Cleft%20%7C%20%5Coverrightarrow%7Br_j%7D-%5Coverrightarrow%7Br_i%7D%20%5Cright%20%7C%5E2%7D%5Ccdot%20%5Cfrac%7B%5Coverrightarrow%7Br_j%7D-%5Coverrightarrow%7Br_i%7D%7D%7B%5Cleft%20%7C%20%5Coverrightarrow%7Br_j%7D-%5Coverrightarrow%7Br_i%7D%20%5Cright%20%7C%7D)  
 Here, for simplicity, we consider only three planets(the Sun, the Earth and the Jupiter). Besides, the AU is introduced to simplify the numerical process since ![](http://latex.codecogs.com/gif.latex?Gm_S%3D4%5Cpi%5E2AU%5E3/yr%5E2) and the distance ![](http://latex.codecogs.com/gif.latex?d_%7BS%2CE%7D%3D1AU).  
-
+## 3.2 Initial Condition
+For simplicity, we set the initial location of each planets as ![](http://latex.codecogs.com/gif.latex?x_S%3D0%2Cx_E%3D1AU%2Cm_J%3D5.2AU) in the rest frame.  
+As for initial velocity, set it with the magnitude with which the planet circles around the Sun in a stable orbit with no extra influence.  
+Because ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7BGm_Sm_x%7D%7Br%5Er%7D%3Dm_x%5Cfrac%7Bv%5E2%7D%7Br%7D)  
+we have ![](http://latex.codecogs.com/gif.latex?v%3D%5Csqrt%7B%5Cfrac%7BGm_S%7D%7Br%7D%7D)  
 
 # 4. Code
 Code for [the Sun is tationary](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/12.1.1.py)  
