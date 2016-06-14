@@ -10,6 +10,7 @@ In regions with no source of electric charge, the electric potential obeys the s
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%5E2%20V%7D%7B%5Cpartial%20x%5E2%7D&plus;%5Cfrac%7B%5Cpartial%5E2%20V%7D%7B%5Cpartial%20y%5E2%7D&plus;%5Cfrac%7B%5Cpartial%5E2%20V%7D%7B%5Cpartial%20z%5E2%7D%3D0)  
 Different from the differential equations that are given initial conditions and that can be solved by Euler method or Runge-Kutta method, Laplace's equation is often introduced with boundary conditions, which specify the value on some surface in the space. Alternatively, the boundary conditions might be given in terms of the electric field, which is proportional to the gradient of electric potential.  
 Thus, the relaxation method is introduced to solve the project. It is convenient for dealing with the class of partial differential equations known as ellipitic equations, of which Laplace's equation is one example.  
+问题背景是树上140页点5.6图
 
 # 3. Methodology and Solutions
 ## 3.1 Equations That May Need
@@ -45,6 +46,7 @@ Update-V: use the values in ![](http://latex.codecogs.com/gif.latex?V%28i%2Cj%2C
 > + Return ![](http://latex.codecogs.com/gif.latex?%5CDelta%20V) and ![](http://latex.codecogs.com/gif.latex?V_%7Bn&plus;1%7D) to the calling program.  
 
 Laplace-calculate: takes care of calling update-V and testing for convergence  
+The convergence limit is concerned with ![](http://latex.codecogs.com/gif.latex?%5CDelta%20V). > The average deviation between the two consequent calculated potential should be much smaller than the value of 1 per site. Thus, it is recommended that a appropriate limit is ![](http://latex.codecogs.com/gif.latex?%5CDelta%20V%5Cleqslant%201%5Ctimes%2010%5E%7B-5%7D%5Ctimes%20N) where ![](http://latex.codecogs.com/gif.latex?N) is the number of sites.  
 
 ## 3.4  The Gauss-Seidel Method
  The Gauss-Seidel method differs in that it uses the new values as they become available. The order in which they become available depends on how the lattice is looped through. That is  
@@ -61,14 +63,42 @@ where the factor ![](http://latex.codecogs.com/gif.latex?%5Calpha) measures how 
 
 
 # 4. Code
-
+The code for [Jacobi Relaxation Method](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/13.1.Jacobi.py)  
+The code for [Gauss-Seidel Method](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/13.2.GS.py)  
 
 # 5. Running and Analysis
+## 5.1 Jacobi Relaxation Method
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1), the results are as follows:  
+The number to iterate is 67  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_1.png)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_2.png)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_3.png)  
 
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.05), the results are as follows:  
+The number to iterate is 217  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_4.png)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_5.png)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_6.png)  
+It can be induced that when ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1) is changed to ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.05), the number of iteration increases from 67 to 217, almost four times it used to be.  
+
+## 5.2 Gauss-Seidel Relaxation Method
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1), the results are as follows:  
+The number to iterate is 57  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_7.png)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_8.png)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/figure_9.png)  
+
+When ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.1) is changed to ![](http://latex.codecogs.com/gif.latex?%5CDelta%3D0.05), the number of iteration increases from 57 to 188, also almost four times it used to be.  
+Thus, the number of iteration satisfies <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_%7Biter%7D%5Csim%20L%5E2" style="border:none;" />  
 
 # 6. Acknowledgement and Reference
 - [codecogs](http://latex.codecogs.com/)
 - Computational Physics, Nicholas J. Giordano & Hisao Nakanishi
+- [Matplotlib Tutorial](http://www.labri.fr/perso/nrougier/teaching/matplotlib/)
+
+
+
+
 
 
 
