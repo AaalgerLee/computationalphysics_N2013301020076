@@ -10,7 +10,11 @@ In regions with no source of electric charge, the electric potential obeys the s
 ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cpartial%5E2%20V%7D%7B%5Cpartial%20x%5E2%7D&plus;%5Cfrac%7B%5Cpartial%5E2%20V%7D%7B%5Cpartial%20y%5E2%7D&plus;%5Cfrac%7B%5Cpartial%5E2%20V%7D%7B%5Cpartial%20z%5E2%7D%3D0)  
 Different from the differential equations that are given initial conditions and that can be solved by Euler method or Runge-Kutta method, Laplace's equation is often introduced with boundary conditions, which specify the value on some surface in the space. Alternatively, the boundary conditions might be given in terms of the electric field, which is proportional to the gradient of electric potential.  
 Thus, the relaxation method is introduced to solve the project. It is convenient for dealing with the class of partial differential equations known as ellipitic equations, of which Laplace's equation is one example.  
-问题背景是树上140页点5.6图
+Here the problem is to solve the potential distribution of the space with two electrical plates:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/1.png)  
+symetry propertie indicates that only one fourth of the square is needed to calculate, so the first quadrant is chosen as the interest regime, that is  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/2.png)  
+
 
 # 3. Methodology and Solutions
 ## 3.1 Equations That May Need
