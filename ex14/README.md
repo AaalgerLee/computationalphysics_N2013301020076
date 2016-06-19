@@ -42,16 +42,21 @@ Code for [Frequency Spectrum of Waves on a String]
 ## 5.1  Displacement of Waves on An Ideal String
 If the initial wave packet is ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3De%5E%7B-1000%5Ctimes%28x-0.3%29%5E2%7D), the result is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_1.png)  
-动图1号  
+The motion that changes with time step can be shown below:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim1.png)  
 
 If the initial wave packet is ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3D-2e%5E%7B-300%5Ctimes%28x-0.6%29%5E2%7D), the result is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_2.png)  
-动图2号  
+The motion that changes with time step can be shown below:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim2.png)  
 
 If the initial wave packet is ![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3De%5E%7B-1000%5Ctimes%28x-0.3%29%5E2%7D-2e%5E%7B-300%5Ctimes%28x-0.6%29%5E2%7D), the result is:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_3.png)  
-动图3号
+The motion that changes with time step can be shown below:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim3.png)  
 
+Besides, we can draw them together, here we have:  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim4.png)  
 From the results above, we can draw the conclusion that when there are two Gaussian wave packets located at different places on the string, the wave packets may then propagate and collide but the wave packets are unaffected by the collisions.  
 
 ## 5.2Frequency Spectrum of Waves on a String
