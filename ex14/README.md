@@ -5,6 +5,13 @@ Exercise 14--- Waves on a String and Its Frequency Spectrum. Problem 6.6 + 6.12 
 Here the particular case of waves on a string is considered. At the beginning, a solution for the wave equation in the ideal case is introduced and developed, that is, for a perfectly flexible and frictionless string. Only one initial Gaussian wave packet and two initial Gaussian wave packets are considered to show that the wave packets are unaffected by the collisions. Besides, Fourier analysis is applied in the spectral analysis to exam the waves on a string.  
 
 # 2. Background
+Suppose the total length of the string is 1 unit.
+For Gaussian Wavepackte, the displacement of the string can be written as  
+![](http://latex.codecogs.com/gif.latex?y_o%28x%29%3Dy_0%28i%5CDelta%20x%29%3DA%5Ctimes%20exp%5B-k%5Ctimes%28x-x_%7Bexcite%7D%29%5E2%5D)  
+where the parameters ![](http://latex.codecogs.com/gif.latex?k%2Cx_%7Bobserve%7D) influence the width and center of the wavepacket respectively.  
+A more realistic initial wavepacket is composed of two straight lines, that is:  
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5C%20x/x_%7Bexcite%7D%5C%5C%28x-1%29/%28x_%7Bexcite%7D-1%29%20%5Cend%7Bmatrix%7D%5Cright.).
+
 
 
 # 3. Methodology and Solutions
@@ -35,8 +42,8 @@ And the power spectrum is given by
 
 
 # 4. Code
-Code for [Displacement of Waves on An Ideal String]  
-Code for [Frequency Spectrum of Waves on a String]  
+Code for [Displacement of Waves on An Ideal String](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/14.1.py)&[Animation of Displacements of two different Initial Wavepackets and their combination](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/14.2.py)  
+Code for [Frequency Spectrum of Waves on a String](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/14.3.py)  
 
 # 5. Running and Analysis
 ## 5.1  Displacement of Waves on An Ideal String
@@ -57,13 +64,42 @@ The motion that changes with time step can be shown below:
 
 Besides, we can draw them together, here we have:  
 ![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/gif/anim4.gif)  
+
 From the results above, we can draw the conclusion that when there are two Gaussian wave packets located at different places on the string, the wave packets may then propagate and collide but the wave packets are unaffected by the collisions.  
 
-## 5.2Frequency Spectrum of Waves on a String
+## 5.2Frequency Spectrum of Waves on a Gaussian-excited String
+Suppose the initial wavepacket is ![](http://latex.codecogs.com/gif.latex?y_o%28x%29%3Dexp%5B-1000%5Ctimes%28x-x_%7Bexcite%7D%29%5E2%5D). And the total length of the string is 1 unit.  
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_4.png)  
+
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.1)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_5.png)  
+
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_6.png)  
+
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_7.png)  
+
+because ![](http://latex.codecogs.com/gif.latex?%5Clambda%20f%3Dc%2C%5Clambda%20%3D2L/m%2Cm%5Cin%20N), we have the possible frequencies as ![](http://latex.codecogs.com/gif.latex?f%3Dmc/%282L%29%3D150mHz). This explains why the peaks in the spectral analysis in the above figures occur at regularly spaced frequencies. Each of the peaks correspond to one value of interger m. But some frequancies are missing and this can be traced to the operation of Fourier Transformation.  
+Besides, the symmetry of the initial wavepacket can cause certain frequencies to be supressed. The power spectrum of ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) can illustrate this clearly.  
 
 
+## 5.3Frequency Spectrum of Waves on a String with Two Straight Lines At Start
+The initial wavepacket is  
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5C%20x/x_%7Bexcite%7D%5C%5C%28x-1%29/%28x_%7Bexcite%7D-1%29%20%5Cend%7Bmatrix%7D%5Cright.).  
+  
 
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_8.png)  
 
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_9.png)  
+
+When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
+![](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/figure_10.png)  
+
+There exists one frequency with which the power is greatly excessive of others.  
 
 
 # 6. Acknowledgement and Reference
