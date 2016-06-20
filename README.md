@@ -15,6 +15,9 @@ Hongyi Class
 - [ex10.Lorentz model](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex10_ch3.26/README.md)  
 - [ex11.Double-Star System](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex11/README.md)  
 - [ex12.Three-Body Simulation](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex12/README.md)  
-- [ex13.Electric Potential Distribution Near Two Plates](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/README.md)
-- [ex14]
+- [ex13.Electric Potential Distribution Near Two Plates](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/README.md)  
+- [ex14.Displacement Sn a String & Power Spectrum Analysis](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/README.md)  
+
+
+
 
