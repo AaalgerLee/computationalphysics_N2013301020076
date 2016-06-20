@@ -5,12 +5,12 @@ Exercise 14--- Waves on a String and Its Frequency Spectrum. Problem 6.6 + 6.12 
 Here the particular case of waves on a string is considered. At the beginning, a solution for the wave equation in the ideal case is introduced and developed, that is, for a perfectly flexible and frictionless string. Only one initial Gaussian wave packet and two initial Gaussian wave packets are considered to show that the wave packets are unaffected by the collisions. Besides, Fourier analysis is applied in the spectral analysis to exam the waves on a string.  
 
 # 2. Background
-Suppose the total length of the string is 1 unit.
+Suppose the total length of the string is 1 unit.  
 For Gaussian Wavepackte, the displacement of the string can be written as  
 ![](http://latex.codecogs.com/gif.latex?y_o%28x%29%3Dy_0%28i%5CDelta%20x%29%3DA%5Ctimes%20exp%5B-k%5Ctimes%28x-x_%7Bexcite%7D%29%5E2%5D)  
 where the parameters ![](http://latex.codecogs.com/gif.latex?k%2Cx_%7Bobserve%7D) influence the width and center of the wavepacket respectively.  
 A more realistic initial wavepacket is composed of two straight lines, that is:  
-![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5C%20x/x_%7Bexcite%7D%5C%5C%28x-1%29/%28x_%7Bexcite%7D-1%29%20%5Cend%7Bmatrix%7D%5Cright.).
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20x/x_%7Bexcite%7D%260%3Cx%3C%20x_%7Bexcite%7D%20%5C%5C%20%28x-1%29/%28x_%7Bexcite%7D-1%29%20%26%20x_%7Bexcite%7D%3Cx%3C1%20%5Cend%7Bmatrix%7D%5Cright.).  
 
 
 
@@ -87,7 +87,7 @@ Besides, the symmetry of the initial wavepacket can cause certain frequencies to
 
 ## 5.3Frequency Spectrum of Waves on a String with Two Straight Lines At Start
 The initial wavepacket is  
-![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20%5C%20x/x_%7Bexcite%7D%5C%5C%28x-1%29/%28x_%7Bexcite%7D-1%29%20%5Cend%7Bmatrix%7D%5Cright.).  
+![](http://latex.codecogs.com/gif.latex?y_0%28x%29%3Dy_0%28i%5CDelta%20x%29%3D%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20x/x_%7Bexcite%7D%260%3Cx%3C%20x_%7Bexcite%7D%20%5C%5C%20%28x-1%29/%28x_%7Bexcite%7D-1%29%20%26%20x_%7Bexcite%7D%3Cx%3C1%20%5Cend%7Bmatrix%7D%5Cright.).  
   
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
