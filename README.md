@@ -18,6 +18,8 @@ Hongyi Class
 - [ex13.Electric Potential Distribution Near Two Plates](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex13/README.md)  
 - [ex14.Displacement Sn a String & Power Spectrum Analysis](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/ex14/README.md)  
 
+## Final Term Thesis
+期末论文：[Demonstration of Chaos in The Damped, Driven, Nonlinear Pendulum](https://github.com/JunyiShangguan/computationalphysics_N2013301020076/blob/master/final/计算物理期末论文.pdf)
 
 
 
